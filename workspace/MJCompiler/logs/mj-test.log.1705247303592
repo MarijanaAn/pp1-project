@@ -1,0 +1,159 @@
+INFO  16:47:59,445 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  16:47:59,686 - #2 program
+INFO  16:47:59,686 - #48 p
+INFO  16:47:59,686 - #5 namespace
+INFO  16:47:59,691 - #48 sizes
+INFO  16:47:59,691 - #3 {
+INFO  16:47:59,694 - #10 const
+INFO  16:47:59,698 - #48 int
+INFO  16:47:59,698 - #48 tableSize
+INFO  16:47:59,699 - #24 =
+INFO  16:47:59,700 - #47 10
+INFO  16:47:59,700 - #6 ;
+INFO  16:47:59,705 - #3 {
+INFO  16:47:59,706 - #4 }
+INFO  16:47:59,708 - #4 }
+INFO  16:47:59,708 - #5 namespace
+INFO  16:47:59,711 - #48 sizes
+INFO  16:47:59,711 - #3 {
+INFO  16:47:59,712 - #3 {
+INFO  16:47:59,712 - #4 }
+INFO  16:47:59,713 - #4 }
+INFO  16:47:59,713 - #48 int
+INFO  16:47:59,713 - #48 s
+INFO  16:47:59,714 - #6 ;
+INFO  16:47:59,768 - #48 bool
+INFO  16:47:59,770 - #48 t
+INFO  16:47:59,771 - #6 ;
+INFO  16:47:59,772 - #3 {
+INFO  16:47:59,773 - #43 void
+INFO  16:47:59,773 - #48 main
+INFO  16:47:59,773 - #14 (
+INFO  16:47:59,774 - #15 )
+INFO  16:47:59,776 - #3 {
+INFO  16:47:59,778 - #23 print
+INFO  16:47:59,783 - #14 (
+INFO  16:47:59,783 - #47 3
+INFO  16:47:59,783 - #15 )
+INFO  16:47:59,784 - #6 ;
+INFO  16:47:59,785 - #48 t
+INFO  16:47:59,786 - #24 =
+INFO  16:47:59,787 - #50 1
+INFO  16:47:59,791 - #6 ;
+INFO  16:47:59,792 - #4 }
+INFO  16:47:59,793 - #4 }
+INFO  16:47:59,824 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    Namespaces(
+      NoNamespace(
+      ) [NoNamespace]
+      Namespace(
+        NamespaceName(
+         sizes
+        ) [NamespaceName]
+        DeclConst(
+          NoDecl(
+          ) [NoDecl]
+          ConstDeclarations(
+            Types(
+             int
+            ) [Types]
+            NumConst(
+             tableSize
+             10
+            ) [NumConst]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        NoMethodDeclaration(
+        ) [NoMethodDeclaration]
+      ) [Namespace]
+    ) [Namespaces]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      NoDecl(
+      ) [NoDecl]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         s
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       bool
+      ) [Types]
+      VarDeclName(
+       t
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        Stms(
+          NoStms(
+          ) [NoStms]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 3
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [Stms]
+        DStm(
+          AssignExpr(
+            DesignatorIdent(
+             t
+            ) [DesignatorIdent]
+            Assign(
+            ) [Assign]
+            TermExpr(
+              FactorTerm(
+                BoolFactor(
+                 1
+                ) [BoolFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [AssignExpr]
+        ) [DStm]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:47:59,825 - ===================================
+INFO  16:47:59,838 - CurType 1 se promenio! na liniji 3
+ERROR 16:47:59,838 - Namespace sa imenom sizes vec postoji na liniji 6

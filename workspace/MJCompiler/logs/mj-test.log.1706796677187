@@ -1,0 +1,597 @@
+INFO  15:09:30,314 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  15:09:30,473 - #2 program
+INFO  15:09:30,473 - #48 test302
+INFO  15:09:30,473 - #48 int
+INFO  15:09:30,478 - #48 i
+INFO  15:09:30,478 - #6 ;
+INFO  15:09:30,480 - #48 bool
+INFO  15:09:30,481 - #48 ibool
+INFO  15:09:30,482 - #6 ;
+INFO  15:09:30,482 - #3 {
+INFO  15:09:30,482 - #48 int
+INFO  15:09:30,484 - #48 inc
+INFO  15:09:30,484 - #14 (
+INFO  15:09:30,485 - #48 int
+INFO  15:09:30,485 - #48 s
+INFO  15:09:30,485 - #7 ,
+INFO  15:09:30,486 - #48 int
+INFO  15:09:30,486 - #48 d
+INFO  15:09:30,486 - #15 )
+INFO  15:09:30,487 - #3 {
+INFO  15:09:30,489 - #38 return
+INFO  15:09:30,492 - #48 s
+INFO  15:09:30,493 - #31 +
+INFO  15:09:30,503 - #48 d
+INFO  15:09:30,505 - #6 ;
+INFO  15:09:30,506 - #4 }
+INFO  15:09:30,507 - #48 bool
+INFO  15:09:30,509 - #48 verify
+INFO  15:09:30,510 - #14 (
+INFO  15:09:30,510 - #15 )
+INFO  15:09:30,511 - #3 {
+INFO  15:09:30,512 - #23 print
+INFO  15:09:30,512 - #14 (
+INFO  15:09:30,512 - #49 v
+INFO  15:09:30,512 - #15 )
+INFO  15:09:30,513 - #6 ;
+INFO  15:09:30,513 - #38 return
+INFO  15:09:30,513 - #50 0
+INFO  15:09:30,514 - #6 ;
+INFO  15:09:30,514 - #4 }
+INFO  15:09:30,514 - #43 void
+INFO  15:09:30,514 - #48 main
+INFO  15:09:30,515 - #14 (
+INFO  15:09:30,517 - #15 )
+INFO  15:09:30,517 - #48 int
+INFO  15:09:30,517 - #48 p
+INFO  15:09:30,518 - #6 ;
+INFO  15:09:30,518 - #3 {
+INFO  15:09:30,518 - #48 p
+INFO  15:09:30,518 - #24 =
+INFO  15:09:30,519 - #48 inc
+INFO  15:09:30,521 - #14 (
+INFO  15:09:30,522 - #47 4
+INFO  15:09:30,522 - #7 ,
+INFO  15:09:30,523 - #47 2
+INFO  15:09:30,523 - #15 )
+INFO  15:09:30,526 - #6 ;
+INFO  15:09:30,527 - #23 print
+INFO  15:09:30,527 - #14 (
+INFO  15:09:30,527 - #48 p
+INFO  15:09:30,527 - #15 )
+INFO  15:09:30,528 - #6 ;
+INFO  15:09:30,528 - #41 if
+INFO  15:09:30,528 - #14 (
+INFO  15:09:30,530 - #50 0
+INFO  15:09:30,531 - #20 ||
+INFO  15:09:30,534 - #48 verify
+INFO  15:09:30,534 - #14 (
+INFO  15:09:30,535 - #15 )
+INFO  15:09:30,538 - #15 )
+INFO  15:09:30,541 - #23 print
+INFO  15:09:30,541 - #14 (
+INFO  15:09:30,542 - #47 6
+INFO  15:09:30,542 - #15 )
+INFO  15:09:30,542 - #6 ;
+INFO  15:09:30,542 - #42 else
+INFO  15:09:30,542 - #23 print
+INFO  15:09:30,543 - #14 (
+INFO  15:09:30,543 - #48 ord
+INFO  15:09:30,543 - #14 (
+INFO  15:09:30,544 - #49 a
+INFO  15:09:30,544 - #15 )
+INFO  15:09:30,544 - #15 )
+INFO  15:09:30,544 - #6 ;
+INFO  15:09:30,544 - #48 ibool
+INFO  15:09:30,545 - #24 =
+INFO  15:09:30,546 - #50 1
+INFO  15:09:30,546 - #6 ;
+INFO  15:09:30,546 - #41 if
+INFO  15:09:30,546 - #14 (
+INFO  15:09:30,547 - #48 ibool
+INFO  15:09:30,547 - #15 )
+INFO  15:09:30,547 - #41 if
+INFO  15:09:30,547 - #14 (
+INFO  15:09:30,548 - #48 i
+INFO  15:09:30,548 - #25 ==
+INFO  15:09:30,549 - #47 5
+INFO  15:09:30,551 - #15 )
+INFO  15:09:30,552 - #23 print
+INFO  15:09:30,552 - #14 (
+INFO  15:09:30,552 - #47 3
+INFO  15:09:30,553 - #15 )
+INFO  15:09:30,554 - #6 ;
+INFO  15:09:30,554 - #42 else
+INFO  15:09:30,554 - #23 print
+INFO  15:09:30,554 - #14 (
+INFO  15:09:30,554 - #32 -
+INFO  15:09:30,555 - #47 1
+INFO  15:09:30,555 - #15 )
+INFO  15:09:30,555 - #6 ;
+INFO  15:09:30,555 - #41 if
+INFO  15:09:30,556 - #14 (
+INFO  15:09:30,556 - #48 i
+INFO  15:09:30,558 - #25 ==
+INFO  15:09:30,558 - #47 3
+INFO  15:09:30,559 - #15 )
+INFO  15:09:30,559 - #23 print
+INFO  15:09:30,559 - #14 (
+INFO  15:09:30,559 - #32 -
+INFO  15:09:30,559 - #48 i
+INFO  15:09:30,559 - #15 )
+INFO  15:09:30,559 - #6 ;
+INFO  15:09:30,559 - #42 else
+INFO  15:09:30,560 - #23 print
+INFO  15:09:30,560 - #14 (
+INFO  15:09:30,560 - #47 4
+INFO  15:09:30,560 - #15 )
+INFO  15:09:30,560 - #6 ;
+INFO  15:09:30,561 - #4 }
+INFO  15:09:30,561 - #4 }
+INFO  15:09:30,594 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         i
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       bool
+      ) [Types]
+      VarDeclName(
+       ibool
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDeclaration(
+        ) [NoMethodDeclaration]
+        TypeMethod(
+          Types(
+           int
+          ) [Types]
+          MethName(
+           inc
+          ) [MethName]
+          FormParam(
+            FormParsVarList(
+              FormParsVar(
+                Types(
+                 int
+                ) [Types]
+               s
+              ) [FormParsVar]
+              Types(
+               int
+              ) [Types]
+             d
+            ) [FormParsVarList]
+          ) [FormParam]
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          Stms(
+            NoStms(
+            ) [NoStms]
+            ReturnExpr(
+              AddopTermExpr(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      DesignatorIdent(
+                       s
+                      ) [DesignatorIdent]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                Plus(
+                ) [Plus]
+                FactorTerm(
+                  Var(
+                    DesignatorIdent(
+                     d
+                    ) [DesignatorIdent]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [AddopTermExpr]
+            ) [ReturnExpr]
+          ) [Stms]
+        ) [TypeMethod]
+      ) [MethodDeclarations]
+      TypeMethod(
+        Types(
+         bool
+        ) [Types]
+        MethName(
+         verify
+        ) [MethName]
+        NoFormParams(
+        ) [NoFormParams]
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        Stms(
+          Stms(
+            NoStms(
+            ) [NoStms]
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  CharFactor(
+                   v
+                  ) [CharFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [PrintStmt]
+          ) [Stms]
+          ReturnExpr(
+            TermExpr(
+              FactorTerm(
+                BoolFactor(
+                 0
+                ) [BoolFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [ReturnExpr]
+        ) [Stms]
+      ) [TypeMethod]
+    ) [MethodDeclarations]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclName(
+           p
+          ) [VarDeclName]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              Stms(
+                Stms(
+                  NoStms(
+                  ) [NoStms]
+                  DStm(
+                    AssignExpr(
+                      DesignatorIdent(
+                       p
+                      ) [DesignatorIdent]
+                      Assign(
+                      ) [Assign]
+                      TermExpr(
+                        FactorTerm(
+                          FuncCall(
+                            DesignatorIdent(
+                             inc
+                            ) [DesignatorIdent]
+                            Actuals(
+                              ActualParsComplete(
+                                ActualParams(
+                                  ActualParam(
+                                    TermExpr(
+                                      FactorTerm(
+                                        NumFactor(
+                                         4
+                                        ) [NumFactor]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [ActualParam]
+                                  TermExpr(
+                                    FactorTerm(
+                                      NumFactor(
+                                       2
+                                      ) [NumFactor]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [ActualParams]
+                              ) [ActualParsComplete]
+                            ) [Actuals]
+                          ) [FuncCall]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [AssignExpr]
+                  ) [DStm]
+                ) [Stms]
+                PrintStmt(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorIdent(
+                         p
+                        ) [DesignatorIdent]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [PrintStmt]
+              ) [Stms]
+              IfElseStatement(
+                ConditionComplete(
+                  MultCondition(
+                    SingleCondition(
+                      CondTermComplete(
+                        SingleCondTerm(
+                          NoRelExpr(
+                            TermExpr(
+                              FactorTerm(
+                                BoolFactor(
+                                 0
+                                ) [BoolFactor]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [NoRelExpr]
+                        ) [SingleCondTerm]
+                      ) [CondTermComplete]
+                    ) [SingleCondition]
+                    CondTermComplete(
+                      SingleCondTerm(
+                        NoRelExpr(
+                          TermExpr(
+                            FactorTerm(
+                              FuncCall(
+                                DesignatorIdent(
+                                 verify
+                                ) [DesignatorIdent]
+                                NoActuals(
+                                ) [NoActuals]
+                              ) [FuncCall]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [NoRelExpr]
+                      ) [SingleCondTerm]
+                    ) [CondTermComplete]
+                  ) [MultCondition]
+                ) [ConditionComplete]
+                PrintStmt(
+                  TermExpr(
+                    FactorTerm(
+                      NumFactor(
+                       6
+                      ) [NumFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [PrintStmt]
+                ElseList(
+                ) [ElseList]
+                PrintStmt(
+                  TermExpr(
+                    FactorTerm(
+                      FuncCall(
+                        DesignatorIdent(
+                         ord
+                        ) [DesignatorIdent]
+                        Actuals(
+                          ActualParsComplete(
+                            ActualParam(
+                              TermExpr(
+                                FactorTerm(
+                                  CharFactor(
+                                   a
+                                  ) [CharFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [ActualParam]
+                          ) [ActualParsComplete]
+                        ) [Actuals]
+                      ) [FuncCall]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [PrintStmt]
+              ) [IfElseStatement]
+            ) [Stms]
+            DStm(
+              AssignExpr(
+                DesignatorIdent(
+                 ibool
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                TermExpr(
+                  FactorTerm(
+                    BoolFactor(
+                     1
+                    ) [BoolFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AssignExpr]
+            ) [DStm]
+          ) [Stms]
+          IfStatement(
+            ConditionComplete(
+              SingleCondition(
+                CondTermComplete(
+                  SingleCondTerm(
+                    NoRelExpr(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorIdent(
+                             ibool
+                            ) [DesignatorIdent]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [NoRelExpr]
+                  ) [SingleCondTerm]
+                ) [CondTermComplete]
+              ) [SingleCondition]
+            ) [ConditionComplete]
+            IfElseStatement(
+              ConditionComplete(
+                SingleCondition(
+                  CondTermComplete(
+                    SingleCondTerm(
+                      RelExpr(
+                        TermExpr(
+                          FactorTerm(
+                            Var(
+                              DesignatorIdent(
+                               i
+                              ) [DesignatorIdent]
+                            ) [Var]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        Equal(
+                        ) [Equal]
+                        TermExpr(
+                          FactorTerm(
+                            NumFactor(
+                             5
+                            ) [NumFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [RelExpr]
+                    ) [SingleCondTerm]
+                  ) [CondTermComplete]
+                ) [SingleCondition]
+              ) [ConditionComplete]
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+              ElseList(
+              ) [ElseList]
+              PrintStmt(
+                MinusTermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [MinusTermExpr]
+              ) [PrintStmt]
+            ) [IfElseStatement]
+          ) [IfStatement]
+        ) [Stms]
+        IfElseStatement(
+          ConditionComplete(
+            SingleCondition(
+              CondTermComplete(
+                SingleCondTerm(
+                  RelExpr(
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorIdent(
+                           i
+                          ) [DesignatorIdent]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    Equal(
+                    ) [Equal]
+                    TermExpr(
+                      FactorTerm(
+                        NumFactor(
+                         3
+                        ) [NumFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [RelExpr]
+                ) [SingleCondTerm]
+              ) [CondTermComplete]
+            ) [SingleCondition]
+          ) [ConditionComplete]
+          PrintStmt(
+            MinusTermExpr(
+              FactorTerm(
+                Var(
+                  DesignatorIdent(
+                   i
+                  ) [DesignatorIdent]
+                ) [Var]
+              ) [FactorTerm]
+            ) [MinusTermExpr]
+          ) [PrintStmt]
+          ElseList(
+          ) [ElseList]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 4
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [IfElseStatement]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:09:30,596 - ===================================
+INFO  15:09:30,609 - U formsu smo na liniji 12
+INFO  15:09:30,609 - Dodajemo u metodu na liniji 12
+INFO  15:09:30,609 - Dodajemo param u form na liniji 12
+INFO  15:09:30,611 - U num factoru smo na liniji 23
+INFO  15:09:30,611 - prom TermExpr(
+  FactorTerm(
+    NumFactor(
+     4
+    ) [NumFactor]
+  ) [FactorTerm]
+) [TermExpr] na liniji 23
+INFO  15:09:30,611 - U num factoru smo na liniji 23
+INFO  15:09:30,611 - prom TermExpr(
+  FactorTerm(
+    NumFactor(
+     2
+    ) [NumFactor]
+  ) [FactorTerm]
+) [TermExpr] na liniji 23
+INFO  15:09:30,632 - U num factoru smo na liniji 25
+INFO  15:09:30,632 - prom TermExpr(
+  FactorTerm(
+    CharFactor(
+     a
+    ) [CharFactor]
+  ) [FactorTerm]
+) [TermExpr] na liniji 26
+INFO  15:09:30,632 - U num factoru smo na liniji 29
+INFO  15:09:30,632 - U num factoru smo na liniji 29
+INFO  15:09:30,632 - U num factoru smo na liniji 30
+INFO  15:09:30,632 - U num factoru smo na liniji 31
+INFO  15:09:30,632 - U num factoru smo na liniji 32
+INFO  15:09:30,647 - 4 na liniji 23
+INFO  15:09:30,648 - 2 na liniji 23
+INFO  15:09:30,648 - 6 na liniji 25
+INFO  15:09:30,648 - 5 na liniji 29
+INFO  15:09:30,648 - 3 na liniji 29
+INFO  15:09:30,648 - 1 na liniji 30
+INFO  15:09:30,648 - 3 na liniji 31
+INFO  15:09:30,648 - 4 na liniji 32
+INFO  15:09:30,650 - Parsiranje uspesno zavrseno!

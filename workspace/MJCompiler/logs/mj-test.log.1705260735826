@@ -1,0 +1,228 @@
+INFO  19:58:32,269 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  19:58:32,695 - #2 program
+INFO  19:58:32,696 - #48 p
+INFO  19:58:32,697 - #5 namespace
+INFO  19:58:32,703 - #48 sizes
+INFO  19:58:32,704 - #3 {
+INFO  19:58:32,706 - #10 const
+INFO  19:58:32,708 - #48 int
+INFO  19:58:32,708 - #48 tableSize
+INFO  19:58:32,709 - #24 =
+INFO  19:58:32,710 - #47 10
+INFO  19:58:32,710 - #6 ;
+INFO  19:58:32,713 - #3 {
+INFO  19:58:32,714 - #4 }
+INFO  19:58:32,724 - #4 }
+INFO  19:58:32,724 - #48 int
+INFO  19:58:32,729 - #48 s
+INFO  19:58:32,730 - #6 ;
+INFO  19:58:32,732 - #48 bool
+INFO  19:58:32,734 - #48 t
+INFO  19:58:32,735 - #6 ;
+INFO  19:58:32,735 - #3 {
+INFO  19:58:32,736 - #43 void
+INFO  19:58:32,739 - #48 main
+INFO  19:58:32,739 - #14 (
+INFO  19:58:32,740 - #15 )
+INFO  19:58:32,742 - #48 int
+INFO  19:58:32,745 - #48 x
+INFO  19:58:32,745 - #7 ,
+INFO  19:58:32,745 - #48 i
+INFO  19:58:32,745 - #6 ;
+INFO  19:58:32,746 - #48 char
+INFO  19:58:32,747 - #48 c
+INFO  19:58:32,747 - #6 ;
+INFO  19:58:32,747 - #48 int
+INFO  19:58:32,747 - #48 arr
+INFO  19:58:32,749 - #8 [
+INFO  19:58:32,749 - #9 ]
+INFO  19:58:32,749 - #6 ;
+INFO  19:58:32,750 - #3 {
+INFO  19:58:32,750 - #23 print
+INFO  19:58:32,752 - #14 (
+INFO  19:58:32,752 - #47 3
+INFO  19:58:32,752 - #15 )
+INFO  19:58:32,753 - #6 ;
+INFO  19:58:32,754 - #48 t
+INFO  19:58:32,755 - #24 =
+INFO  19:58:32,756 - #50 1
+INFO  19:58:32,759 - #6 ;
+INFO  19:58:32,761 - #48 x
+INFO  19:58:32,761 - #24 =
+INFO  19:58:32,762 - #47 6
+INFO  19:58:32,762 - #6 ;
+INFO  19:58:32,762 - #4 }
+INFO  19:58:32,762 - #4 }
+INFO  19:58:32,821 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         s
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       bool
+      ) [Types]
+      VarDeclName(
+       t
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            NoStms(
+            ) [NoStms]
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  NumFactor(
+                   3
+                  ) [NumFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [PrintStmt]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              DesignatorIdent(
+               t
+              ) [DesignatorIdent]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  BoolFactor(
+                   1
+                  ) [BoolFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+        DStm(
+          AssignExpr(
+            DesignatorIdent(
+             x
+            ) [DesignatorIdent]
+            Assign(
+            ) [Assign]
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 6
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [AssignExpr]
+        ) [DStm]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:58:32,827 - ===================================
+INFO  19:58:32,840 - CurType 1 se promenio! na liniji 3
+INFO  19:58:32,841 - CurType 1 se promenio! na liniji 6
+INFO  19:58:32,841 - Var s u delu za globalno na liniji 6
+INFO  19:58:32,841 - CurType 0 se promenio! na liniji 7
+INFO  19:58:32,842 - Var t u delu za globalno na liniji 7
+INFO  19:58:32,843 - CurType 1 se promenio! na liniji 9
+INFO  19:58:32,843 - Var x u delu za lokalno na liniji 9
+INFO  19:58:32,844 - Var i u delu za lokalno na liniji 9
+INFO  19:58:32,845 - CurType 2 se promenio! na liniji 9
+INFO  19:58:32,845 - Var c u delu za lokalno na liniji 9
+INFO  19:58:32,845 - CurType 1 se promenio! na liniji 9
+INFO  19:58:32,870 - Parsiranje uspesno zavrseno!

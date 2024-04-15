@@ -1,0 +1,106 @@
+INFO  18:49:16,504 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  18:49:16,680 - #2 program
+INFO  18:49:16,680 - #48 test302
+INFO  18:49:16,680 - #48 int
+INFO  18:49:16,685 - #48 i
+INFO  18:49:16,687 - #6 ;
+INFO  18:49:16,689 - #3 {
+INFO  18:49:16,691 - #43 void
+INFO  18:49:16,693 - #48 main
+INFO  18:49:16,693 - #14 (
+INFO  18:49:16,694 - #15 )
+INFO  18:49:16,696 - #48 int
+INFO  18:49:16,698 - #48 p
+INFO  18:49:16,698 - #6 ;
+INFO  18:49:16,698 - #3 {
+INFO  18:49:16,699 - #41 if
+INFO  18:49:16,700 - #14 (
+INFO  18:49:16,700 - #50 0
+INFO  18:49:16,701 - #15 )
+INFO  18:49:16,708 - #23 print
+INFO  18:49:16,709 - #14 (
+INFO  18:49:16,710 - #47 6
+INFO  18:49:16,710 - #15 )
+INFO  18:49:16,711 - #6 ;
+INFO  18:49:16,711 - #4 }
+INFO  18:49:16,712 - #4 }
+INFO  18:49:16,791 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       i
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclName(
+           p
+          ) [VarDeclName]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        IfStatement(
+          ConditionComplete(
+            SingleCondition(
+              CondTermComplete(
+                SingleCondTerm(
+                  NoRelExpr(
+                    TermExpr(
+                      FactorTerm(
+                        BoolFactor(
+                         0
+                        ) [BoolFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [NoRelExpr]
+                ) [SingleCondTerm]
+              ) [CondTermComplete]
+            ) [SingleCondition]
+          ) [ConditionComplete]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 6
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [IfStatement]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:49:16,799 - ===================================
+INFO  18:49:16,841 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,142 @@
+INFO  16:34:08,624 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\forTest.mj
+INFO  16:34:09,287 - #2 program
+INFO  16:34:09,288 - #48 fortest
+INFO  16:34:09,289 - #48 int
+INFO  16:34:09,297 - #48 i
+INFO  16:34:09,299 - #6 ;
+INFO  16:34:09,303 - #3 {
+INFO  16:34:09,306 - #43 void
+INFO  16:34:09,309 - #48 main
+INFO  16:34:09,309 - #14 (
+INFO  16:34:09,310 - #15 )
+INFO  16:34:09,313 - #3 {
+INFO  16:34:09,315 - #36 for
+INFO  16:34:09,317 - #14 (
+INFO  16:34:09,332 - #48 i
+INFO  16:34:09,333 - #24 =
+INFO  16:34:09,333 - #47 0
+INFO  16:34:09,337 - #6 ;
+INFO  16:34:09,339 - #48 i
+INFO  16:34:09,340 - #29 <
+INFO  16:34:09,342 - #47 3
+INFO  16:34:09,345 - #6 ;
+INFO  16:34:09,346 - #48 i
+INFO  16:34:09,347 - #21 ++
+INFO  16:34:09,348 - #15 )
+INFO  16:34:09,348 - #3 {
+INFO  16:34:09,349 - #23 print
+INFO  16:34:09,349 - #14 (
+INFO  16:34:09,349 - #48 i
+INFO  16:34:09,349 - #15 )
+INFO  16:34:09,349 - #6 ;
+INFO  16:34:09,349 - #4 }
+INFO  16:34:09,350 - #4 }
+INFO  16:34:09,351 - #4 }
+INFO  16:34:09,514 - Program(
+  ProgramName(
+   fortest
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       i
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        ForStmt(
+          ForEnter(
+          ) [ForEnter]
+          SingleDs1(
+            AssignExpr(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  NumFactor(
+                   0
+                  ) [NumFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [SingleDs1]
+          CondFacts(
+            RelExpr(
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorIdent(
+                     i
+                    ) [DesignatorIdent]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+              Less(
+              ) [Less]
+              TermExpr(
+                FactorTerm(
+                  NumFactor(
+                   3
+                  ) [NumFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [RelExpr]
+          ) [CondFacts]
+          SingleDs2(
+            Inc(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+            ) [Inc]
+          ) [SingleDs2]
+          Stmt(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [Stms]
+          ) [Stmt]
+        ) [ForStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:34:09,517 - ===================================
+INFO  16:34:09,568 - 0 na liniji 5
+INFO  16:34:09,568 - 3 na liniji 5
+INFO  16:34:09,577 - Parsiranje uspesno zavrseno!

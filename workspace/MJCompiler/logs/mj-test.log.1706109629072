@@ -1,0 +1,278 @@
+INFO  16:19:58,002 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  16:19:58,160 - #2 program
+INFO  16:19:58,160 - #48 p
+INFO  16:19:58,160 - #5 namespace
+INFO  16:19:58,164 - #48 sizes
+INFO  16:19:58,164 - #3 {
+INFO  16:19:58,166 - #10 const
+INFO  16:19:58,168 - #48 int
+INFO  16:19:58,168 - #48 tableSize
+INFO  16:19:58,169 - #24 =
+INFO  16:19:58,169 - #47 10
+INFO  16:19:58,169 - #6 ;
+INFO  16:19:58,171 - #10 const
+INFO  16:19:58,172 - #48 bool
+INFO  16:19:58,172 - #48 l
+INFO  16:19:58,172 - #24 =
+INFO  16:19:58,173 - #50 0
+INFO  16:19:58,173 - #6 ;
+INFO  16:19:58,173 - #3 {
+INFO  16:19:58,174 - #4 }
+INFO  16:19:58,176 - #4 }
+INFO  16:19:58,176 - #48 int
+INFO  16:19:58,178 - #48 x
+INFO  16:19:58,179 - #6 ;
+INFO  16:19:58,181 - #3 {
+INFO  16:19:58,182 - #43 void
+INFO  16:19:58,182 - #48 main
+INFO  16:19:58,183 - #14 (
+INFO  16:19:58,183 - #15 )
+INFO  16:19:58,185 - #48 int
+INFO  16:19:58,186 - #48 x
+INFO  16:19:58,187 - #7 ,
+INFO  16:19:58,187 - #48 i
+INFO  16:19:58,187 - #6 ;
+INFO  16:19:58,187 - #48 char
+INFO  16:19:58,188 - #48 c
+INFO  16:19:58,188 - #6 ;
+INFO  16:19:58,189 - #48 int
+INFO  16:19:58,189 - #48 arr
+INFO  16:19:58,189 - #8 [
+INFO  16:19:58,189 - #9 ]
+INFO  16:19:58,189 - #6 ;
+INFO  16:19:58,190 - #3 {
+INFO  16:19:58,191 - #48 x
+INFO  16:19:58,193 - #24 =
+INFO  16:19:58,193 - #47 3
+INFO  16:19:58,196 - #6 ;
+INFO  16:19:58,197 - #48 x
+INFO  16:19:58,198 - #21 ++
+INFO  16:19:58,198 - #6 ;
+INFO  16:19:58,198 - #41 if
+INFO  16:19:58,199 - #14 (
+INFO  16:19:58,199 - #48 l
+INFO  16:19:58,199 - #15 )
+INFO  16:19:58,200 - #48 x
+INFO  16:19:58,201 - #24 =
+INFO  16:19:58,201 - #47 2
+INFO  16:19:58,201 - #6 ;
+INFO  16:19:58,201 - #42 else
+INFO  16:19:58,202 - #48 x
+INFO  16:19:58,202 - #24 =
+INFO  16:19:58,202 - #47 4
+INFO  16:19:58,202 - #6 ;
+INFO  16:19:58,203 - #23 print
+INFO  16:19:58,205 - #14 (
+INFO  16:19:58,206 - #48 x
+INFO  16:19:58,206 - #15 )
+INFO  16:19:58,206 - #6 ;
+INFO  16:19:58,206 - #4 }
+INFO  16:19:58,208 - #4 }
+INFO  16:19:58,292 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      DeclConst(
+        DeclConst(
+          NoDecl(
+          ) [NoDecl]
+          ConstDeclarations(
+            Types(
+             int
+            ) [Types]
+            NumConst(
+             tableSize
+             10
+            ) [NumConst]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        ConstDeclarations(
+          Types(
+           bool
+          ) [Types]
+          BoolConst(
+           l
+           0
+          ) [BoolConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       x
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              DStm(
+                AssignExpr(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  Assign(
+                  ) [Assign]
+                  TermExpr(
+                    FactorTerm(
+                      NumFactor(
+                       3
+                      ) [NumFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [AssignExpr]
+              ) [DStm]
+            ) [Stms]
+            DStm(
+              Inc(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [Inc]
+            ) [DStm]
+          ) [Stms]
+          IfElseStatement(
+            SingleCondition(
+              SingleCondTerm(
+                NoRelExpr(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorIdent(
+                         l
+                        ) [DesignatorIdent]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [NoRelExpr]
+              ) [SingleCondTerm]
+            ) [SingleCondition]
+            DStm(
+              AssignExpr(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     2
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AssignExpr]
+            ) [DStm]
+            DStm(
+              AssignExpr(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     4
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AssignExpr]
+            ) [DStm]
+          ) [IfElseStatement]
+        ) [Stms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              Var(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [Var]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:19:58,297 - ===================================
+INFO  16:19:58,308 - U delu smo za dodelu vrednosti pormenljivoj na liniji 10
+ERROR 16:19:58,308 - Ime l ne postoji u tabeli simbola(nije deklarisano) na liniji 12

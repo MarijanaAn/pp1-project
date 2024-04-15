@@ -1,0 +1,166 @@
+INFO  22:03:32,824 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  22:03:32,975 - #2 program
+INFO  22:03:32,976 - #48 p
+INFO  22:03:32,976 - #5 namespace
+INFO  22:03:32,980 - #48 sizes
+INFO  22:03:32,981 - #3 {
+INFO  22:03:32,981 - #10 const
+INFO  22:03:32,982 - #48 int
+INFO  22:03:32,982 - #48 tableSize
+INFO  22:03:32,983 - #24 =
+INFO  22:03:32,983 - #47 10
+INFO  22:03:32,983 - #6 ;
+INFO  22:03:32,986 - #3 {
+INFO  22:03:32,988 - #4 }
+INFO  22:03:32,990 - #4 }
+INFO  22:03:32,990 - #48 int
+INFO  22:03:32,992 - #48 s
+INFO  22:03:32,992 - #6 ;
+INFO  22:03:32,994 - #48 bool
+INFO  22:03:32,995 - #48 m
+INFO  22:03:32,996 - #6 ;
+INFO  22:03:32,997 - #3 {
+INFO  22:03:32,998 - #43 void
+INFO  22:03:33,003 - #48 main
+INFO  22:03:33,003 - #14 (
+INFO  22:03:33,004 - #15 )
+INFO  22:03:33,005 - #48 int
+INFO  22:03:33,007 - #48 x
+INFO  22:03:33,007 - #7 ,
+INFO  22:03:33,008 - #48 i
+INFO  22:03:33,008 - #6 ;
+INFO  22:03:33,008 - #48 char
+INFO  22:03:33,009 - #48 c
+INFO  22:03:33,009 - #6 ;
+INFO  22:03:33,009 - #48 int
+INFO  22:03:33,010 - #48 arr
+INFO  22:03:33,010 - #8 [
+INFO  22:03:33,010 - #9 ]
+INFO  22:03:33,010 - #6 ;
+INFO  22:03:33,010 - #3 {
+INFO  22:03:33,011 - #4 }
+INFO  22:03:33,012 - #4 }
+INFO  22:03:33,035 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         s
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       bool
+      ) [Types]
+      VarDeclName(
+       m
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:03:33,039 - ===================================
+INFO  22:03:33,046 - CurType 1 se promenio! na liniji 3
+INFO  22:03:33,046 - CurType 1 se promenio! na liniji 6
+INFO  22:03:33,047 - Var s u delu za globalno na liniji 6
+ERROR 22:03:33,047 - Nije pronadjen tip bool u tabeli simbola na liniji 7
+INFO  22:03:33,047 - Var m u delu za globalno na liniji 7
+INFO  22:03:33,047 - CurType 1 se promenio! na liniji 9
+INFO  22:03:33,047 - Var x u delu za lokalno na liniji 9
+INFO  22:03:33,047 - Var i u delu za lokalno na liniji 9
+INFO  22:03:33,051 - CurType 2 se promenio! na liniji 9
+INFO  22:03:33,051 - Var c u delu za lokalno na liniji 9
+INFO  22:03:33,051 - CurType 1 se promenio! na liniji 9
+INFO  22:03:33,052 - Gotova metod  na liniji 9

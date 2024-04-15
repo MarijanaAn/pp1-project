@@ -1,0 +1,122 @@
+INFO  19:41:39,671 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  19:41:39,962 - #2 program
+INFO  19:41:39,962 - #48 test302
+INFO  19:41:39,963 - #48 int
+INFO  19:41:39,971 - #48 i
+INFO  19:41:39,971 - #6 ;
+INFO  19:41:39,974 - #3 {
+INFO  19:41:39,975 - #43 void
+INFO  19:41:39,978 - #48 main
+INFO  19:41:39,978 - #14 (
+INFO  19:41:39,979 - #15 )
+INFO  19:41:39,980 - #48 int
+INFO  19:41:39,982 - #48 p
+INFO  19:41:39,983 - #6 ;
+INFO  19:41:39,983 - #3 {
+INFO  19:41:39,984 - #41 if
+INFO  19:41:39,989 - #14 (
+INFO  19:41:39,990 - #50 0
+INFO  19:41:39,991 - #15 )
+INFO  19:41:40,005 - #23 print
+INFO  19:41:40,005 - #14 (
+INFO  19:41:40,006 - #47 6
+INFO  19:41:40,006 - #15 )
+INFO  19:41:40,007 - #6 ;
+INFO  19:41:40,007 - #42 else
+INFO  19:41:40,007 - #23 print
+INFO  19:41:40,055 - #14 (
+INFO  19:41:40,056 - #47 0
+INFO  19:41:40,056 - #15 )
+INFO  19:41:40,057 - #6 ;
+INFO  19:41:40,058 - #4 }
+INFO  19:41:40,059 - #4 }
+INFO  19:41:40,088 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       i
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclName(
+           p
+          ) [VarDeclName]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        IfElseStatement(
+          ConditionComplete(
+            SingleCondition(
+              CondTermComplete(
+                SingleCondTerm(
+                  NoRelExpr(
+                    TermExpr(
+                      FactorTerm(
+                        BoolFactor(
+                         0
+                        ) [BoolFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [NoRelExpr]
+                ) [SingleCondTerm]
+              ) [CondTermComplete]
+            ) [SingleCondition]
+          ) [ConditionComplete]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 6
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+          Else(
+          ) [Else]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 0
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [IfElseStatement]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:41:40,091 - ===================================

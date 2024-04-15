@@ -1,0 +1,17 @@
+program fortest
+int i, j;
+{
+void main(){
+for(i=0; i<3; i++){
+	print(i);
+	for(j=0; j<3; j++){
+	print(i);
+	print(j);
+	if(j==1) break;
+	}
+
+if(i==1) break;
+}
+print('g');
+}
+}

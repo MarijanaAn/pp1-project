@@ -1,0 +1,25 @@
+INFO  21:49:53,364 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  21:49:53,376 - #2 program
+INFO  21:49:53,376 - #48 MJProgram
+INFO  21:49:53,376 - #48 int
+INFO  21:49:53,376 - #48 x
+INFO  21:49:53,377 - #6 ;
+INFO  21:49:53,377 - #48 bool
+INFO  21:49:53,378 - #48 f
+INFO  21:49:53,378 - #6 ;
+INFO  21:49:53,378 - #3 {
+INFO  21:49:53,378 - #43 void
+INFO  21:49:53,378 - #48 main
+INFO  21:49:53,378 - #14 (
+INFO  21:49:53,379 - #15 )
+INFO  21:49:53,379 - #3 {
+INFO  21:49:53,379 - #23 print
+INFO  21:49:53,379 - #14 (
+INFO  21:49:53,380 - #47 1
+INFO  21:49:53,380 - #15 )
+INFO  21:49:53,381 - #6 ;
+INFO  21:49:53,382 - #48 x
+INFO  21:49:53,384 - #21 ++
+INFO  21:49:53,384 - #6 ;
+INFO  21:49:53,396 - #4 }
+INFO  21:49:53,396 - #4 }

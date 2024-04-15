@@ -1,0 +1,109 @@
+INFO  20:20:32,379 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  20:20:32,532 - #2 program
+INFO  20:20:32,533 - #48 p
+INFO  20:20:32,533 - #48 char
+INFO  20:20:32,537 - #48 l
+INFO  20:20:32,539 - #6 ;
+INFO  20:20:32,541 - #3 {
+INFO  20:20:32,542 - #43 void
+INFO  20:20:32,543 - #48 main
+INFO  20:20:32,544 - #14 (
+INFO  20:20:32,544 - #15 )
+INFO  20:20:32,546 - #48 int
+INFO  20:20:32,547 - #48 x
+INFO  20:20:32,548 - #7 ,
+INFO  20:20:32,548 - #48 i
+INFO  20:20:32,548 - #6 ;
+INFO  20:20:32,549 - #48 char
+INFO  20:20:32,549 - #48 c
+INFO  20:20:32,549 - #6 ;
+INFO  20:20:32,550 - #48 int
+INFO  20:20:32,552 - #48 arr
+INFO  20:20:32,553 - #8 [
+INFO  20:20:32,553 - #9 ]
+INFO  20:20:32,558 - #6 ;
+INFO  20:20:32,558 - #3 {
+INFO  20:20:32,558 - #4 }
+INFO  20:20:32,560 - #4 }
+INFO  20:20:32,580 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       char
+      ) [Types]
+      VarDeclName(
+       l
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:20:32,581 - ===================================
+ERROR 20:20:32,592 - Promenljiva null je vec definisana! na liniji 4
+ERROR 20:20:32,592 - Promenljiva null je vec definisana! na liniji 4
+ERROR 20:20:32,593 - Promenljiva null je vec definisana! na liniji 4
+ERROR 20:20:32,593 - Promenljiva null je vec definisana! na liniji 4

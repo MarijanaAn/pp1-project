@@ -1,0 +1,83 @@
+INFO  16:35:28,159 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  16:35:28,712 - #2 program
+INFO  16:35:28,713 - #48 test302
+INFO  16:35:28,713 - #3 {
+INFO  16:35:28,723 - #43 void
+INFO  16:35:28,726 - #48 main
+INFO  16:35:28,727 - #14 (
+INFO  16:35:28,728 - #15 )
+INFO  16:35:28,731 - #3 {
+INFO  16:35:28,734 - #41 if
+INFO  16:35:28,737 - #14 (
+INFO  16:35:28,738 - #47 1
+INFO  16:35:28,738 - #26 !=
+INFO  16:35:28,740 - #47 1
+INFO  16:35:28,747 - #15 )
+INFO  16:35:28,749 - #23 print
+INFO  16:35:28,750 - #14 (
+INFO  16:35:28,750 - #32 -
+INFO  16:35:28,751 - #47 6
+INFO  16:35:28,752 - #15 )
+INFO  16:35:28,754 - #6 ;
+INFO  16:35:28,756 - #4 }
+INFO  16:35:28,759 - #4 }
+INFO  16:35:28,931 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDecl(
+  ) [NoDecl]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        IfStatement(
+          SingleCondition(
+            SingleCondTerm(
+              RelExpr(
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                Nequal(
+                ) [Nequal]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [RelExpr]
+            ) [SingleCondTerm]
+          ) [SingleCondition]
+          PrintStmt(
+            MinusTermExpr(
+              FactorTerm(
+                NumFactor(
+                 6
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [MinusTermExpr]
+          ) [PrintStmt]
+        ) [IfStatement]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:35:28,936 - ===================================

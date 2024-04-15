@@ -1,0 +1,168 @@
+INFO  16:31:32,704 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  16:31:32,878 - #2 program
+INFO  16:31:32,879 - #48 test302
+INFO  16:31:32,879 - #48 int
+INFO  16:31:32,887 - #48 i
+INFO  16:31:32,887 - #6 ;
+INFO  16:31:32,889 - #48 bool
+INFO  16:31:32,891 - #48 ibool
+INFO  16:31:32,891 - #6 ;
+INFO  16:31:32,891 - #48 int
+INFO  16:31:32,891 - #48 niz2
+INFO  16:31:32,892 - #6 ;
+INFO  16:31:32,892 - #48 int
+INFO  16:31:32,892 - #48 niz
+INFO  16:31:32,892 - #8 [
+INFO  16:31:32,892 - #9 ]
+INFO  16:31:32,893 - #6 ;
+INFO  16:31:32,893 - #48 int
+INFO  16:31:32,893 - #48 a
+INFO  16:31:32,894 - #7 ,
+INFO  16:31:32,894 - #48 curr
+INFO  16:31:32,895 - #6 ;
+INFO  16:31:32,896 - #3 {
+INFO  16:31:32,897 - #43 void
+INFO  16:31:32,898 - #48 main
+INFO  16:31:32,899 - #14 (
+INFO  16:31:32,899 - #15 )
+INFO  16:31:32,901 - #3 {
+INFO  16:31:32,903 - #41 if
+INFO  16:31:32,904 - #14 (
+INFO  16:31:32,905 - #47 1
+INFO  16:31:32,905 - #26 !=
+INFO  16:31:32,906 - #47 1
+INFO  16:31:32,908 - #15 )
+INFO  16:31:32,909 - #23 print
+INFO  16:31:32,910 - #14 (
+INFO  16:31:32,910 - #32 -
+INFO  16:31:32,910 - #47 6
+INFO  16:31:32,910 - #15 )
+INFO  16:31:32,911 - #6 ;
+INFO  16:31:32,911 - #4 }
+INFO  16:31:32,912 - #4 }
+INFO  16:31:32,996 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    DeclVar(
+      DeclVar(
+        DeclVar(
+          DeclVar(
+            NoDecl(
+            ) [NoDecl]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               i
+              ) [VarDeclName]
+              NoVarDecls(
+              ) [NoVarDecls]
+            ) [VarDeclaration]
+          ) [DeclVar]
+          VarDeclaration(
+            Types(
+             bool
+            ) [Types]
+            VarDeclName(
+             ibool
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [DeclVar]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclName(
+           niz2
+          ) [VarDeclName]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [DeclVar]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclArray(
+         niz
+        ) [VarDeclArray]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       a
+      ) [VarDeclName]
+      VarDeclars(
+        NoVarDecls(
+        ) [NoVarDecls]
+        VarDeclName(
+         curr
+        ) [VarDeclName]
+      ) [VarDeclars]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        IfStatement(
+          SingleCondition(
+            SingleCondTerm(
+              RelExpr(
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                Nequal(
+                ) [Nequal]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [RelExpr]
+            ) [SingleCondTerm]
+          ) [SingleCondition]
+          PrintStmt(
+            MinusTermExpr(
+              FactorTerm(
+                NumFactor(
+                 6
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [MinusTermExpr]
+          ) [PrintStmt]
+        ) [IfStatement]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:31:33,014 - ===================================
+INFO  16:31:33,057 - Parsiranje uspesno zavrseno!

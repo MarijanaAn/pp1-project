@@ -1,0 +1,232 @@
+INFO  15:02:49,701 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  15:02:49,888 - #2 program
+INFO  15:02:49,888 - #48 p
+INFO  15:02:49,889 - #5 namespace
+INFO  15:02:49,892 - #48 sizes
+INFO  15:02:49,893 - #3 {
+INFO  15:02:49,895 - #10 const
+INFO  15:02:49,897 - #48 int
+INFO  15:02:49,898 - #48 tableSize
+INFO  15:02:49,898 - #24 =
+INFO  15:02:49,899 - #47 10
+INFO  15:02:49,899 - #6 ;
+INFO  15:02:49,901 - #10 const
+INFO  15:02:49,902 - #48 bool
+INFO  15:02:49,902 - #48 l
+INFO  15:02:49,902 - #24 =
+INFO  15:02:49,902 - #50 0
+INFO  15:02:49,903 - #6 ;
+INFO  15:02:49,903 - #3 {
+INFO  15:02:49,903 - #4 }
+INFO  15:02:49,905 - #4 }
+INFO  15:02:49,906 - #48 int
+INFO  15:02:49,908 - #48 s
+INFO  15:02:49,909 - #6 ;
+INFO  15:02:49,912 - #3 {
+INFO  15:02:49,913 - #43 void
+INFO  15:02:49,914 - #48 main
+INFO  15:02:49,915 - #14 (
+INFO  15:02:49,915 - #15 )
+INFO  15:02:49,917 - #48 int
+INFO  15:02:49,919 - #48 x
+INFO  15:02:49,919 - #7 ,
+INFO  15:02:49,919 - #48 i
+INFO  15:02:49,919 - #6 ;
+INFO  15:02:49,920 - #48 char
+INFO  15:02:49,920 - #48 c
+INFO  15:02:49,921 - #6 ;
+INFO  15:02:49,921 - #48 int
+INFO  15:02:49,921 - #48 arr
+INFO  15:02:49,922 - #8 [
+INFO  15:02:49,922 - #9 ]
+INFO  15:02:49,923 - #6 ;
+INFO  15:02:49,923 - #3 {
+INFO  15:02:49,924 - #48 x
+INFO  15:02:49,925 - #21 ++
+INFO  15:02:49,926 - #6 ;
+INFO  15:02:49,926 - #48 arr
+INFO  15:02:49,928 - #8 [
+INFO  15:02:49,929 - #47 3
+INFO  15:02:49,930 - #9 ]
+INFO  15:02:49,930 - #24 =
+INFO  15:02:49,933 - #47 0
+INFO  15:02:49,935 - #6 ;
+INFO  15:02:49,936 - #23 print
+INFO  15:02:49,936 - #14 (
+INFO  15:02:49,936 - #47 3
+INFO  15:02:49,936 - #15 )
+INFO  15:02:49,937 - #6 ;
+INFO  15:02:49,937 - #4 }
+INFO  15:02:49,937 - #4 }
+INFO  15:02:49,958 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      DeclConst(
+        DeclConst(
+          NoDecl(
+          ) [NoDecl]
+          ConstDeclarations(
+            Types(
+             int
+            ) [Types]
+            NumConst(
+             tableSize
+             10
+            ) [NumConst]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        ConstDeclarations(
+          Types(
+           bool
+          ) [Types]
+          BoolConst(
+           l
+           0
+          ) [BoolConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       s
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            NoStms(
+            ) [NoStms]
+            DStm(
+              Inc(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [Inc]
+            ) [DStm]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              DesignatorArray(
+                DesignatorName(
+                 arr
+                ) [DesignatorName]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                NoDesignatorExpr(
+                ) [NoDesignatorExpr]
+              ) [DesignatorArray]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  NumFactor(
+                   0
+                  ) [NumFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumFactor(
+               3
+              ) [NumFactor]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:02:49,960 - ===================================
+INFO  15:02:49,969 - rs.etf.pp1.symboltable.concepts.Struct@6f539caf na liniji 4
+INFO  15:02:49,969 - rs.etf.pp1.symboltable.concepts.Struct@79fc0f2f na liniji 4
+ERROR 15:02:49,970 - Zabranjena dodela za l na liniji 4
+INFO  15:02:49,970 - Var s u delu za globalno na liniji 7
+INFO  15:02:49,971 - Var x u delu za lokalno na liniji 9
+INFO  15:02:49,971 - Var i u delu za lokalno na liniji 9
+INFO  15:02:49,973 - Var c u delu za lokalno na liniji 9
+INFO  15:02:49,976 - Parsiranje NIJE uspesno zavrseno

@@ -1,0 +1,28 @@
+//Test 302
+
+program test302
+int i;
+bool ibool;
+//int niz2;
+//int niz[];
+//int a, curr;
+
+{
+
+	void inc(int s){
+	i=3;
+	}
+	void main()
+	int p;
+	{
+		inc(i);
+		if(false) print(6);
+		else print(i);  
+		ibool = false;
+		if(ibool)
+			if(i == 5) print(3);
+			else print(-1); 			
+		if(i == 3) print(-4);
+		else print(4);  
+	}
+}

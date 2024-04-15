@@ -1,0 +1,7 @@
+INFO  19:59:40,812 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  19:59:40,972 - #2 program
+INFO  19:59:40,972 - #48 p
+INFO  19:59:40,973 - #43 void
+ERROR 19:59:40,973 - 
+Sintaksna greska na liniji 2
+ERROR 19:59:40,973 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

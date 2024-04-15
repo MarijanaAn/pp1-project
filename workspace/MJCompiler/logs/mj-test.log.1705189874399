@@ -1,0 +1,122 @@
+INFO  00:50:09,636 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  00:50:09,848 - #2 program
+INFO  00:50:09,848 - #48 p
+INFO  00:50:09,848 - #5 namespace
+INFO  00:50:09,855 - #48 sizes
+INFO  00:50:09,855 - #3 {
+INFO  00:50:09,856 - #10 const
+INFO  00:50:09,857 - #48 int
+INFO  00:50:09,858 - #48 tableSize
+INFO  00:50:09,859 - #24 =
+INFO  00:50:09,859 - #47 10
+INFO  00:50:09,859 - #6 ;
+INFO  00:50:09,861 - #3 {
+INFO  00:50:09,862 - #4 }
+INFO  00:50:09,864 - #4 }
+INFO  00:50:09,865 - #48 int
+INFO  00:50:09,867 - #48 s
+INFO  00:50:09,867 - #6 ;
+INFO  00:50:09,869 - #48 bool
+INFO  00:50:09,871 - #48 t
+INFO  00:50:09,872 - #6 ;
+INFO  00:50:09,874 - #3 {
+INFO  00:50:09,875 - #43 void
+INFO  00:50:09,879 - #48 main
+INFO  00:50:09,879 - #14 (
+INFO  00:50:09,879 - #15 )
+INFO  00:50:09,881 - #3 {
+INFO  00:50:09,886 - #23 print
+INFO  00:50:09,888 - #14 (
+INFO  00:50:09,888 - #47 3
+INFO  00:50:09,888 - #15 )
+INFO  00:50:09,889 - #6 ;
+INFO  00:50:09,889 - #4 }
+INFO  00:50:09,890 - #4 }
+INFO  00:50:09,911 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         s
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       bool
+      ) [Types]
+      VarDeclName(
+       t
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumFactor(
+               3
+              ) [NumFactor]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:50:09,914 - ===================================
+INFO  00:50:09,923 - CurType 1 se promenio! na liniji 3
+INFO  00:50:09,925 - CurType 1 se promenio! na liniji 6
+INFO  00:50:09,926 - Var s u delu za globalno na liniji 6
+INFO  00:50:09,926 - CurType 0 se promenio! na liniji 7
+INFO  00:50:09,928 - Var t u delu za globalno na liniji 7
+INFO  00:50:09,929 - Gotova metod  na liniji 9

@@ -1,0 +1,162 @@
+INFO  13:56:26,307 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  13:56:26,770 - #2 program
+INFO  13:56:26,771 - #48 p
+INFO  13:56:26,774 - #5 namespace
+INFO  13:56:26,778 - #48 sizes
+INFO  13:56:26,779 - #3 {
+INFO  13:56:26,781 - #10 const
+INFO  13:56:26,788 - #48 int
+INFO  13:56:26,789 - #48 tableSize
+INFO  13:56:26,789 - #24 =
+INFO  13:56:26,789 - #47 10
+INFO  13:56:26,790 - #6 ;
+INFO  13:56:26,792 - #3 {
+INFO  13:56:26,793 - #4 }
+INFO  13:56:26,795 - #4 }
+INFO  13:56:26,796 - #48 int
+INFO  13:56:26,799 - #48 s
+INFO  13:56:26,799 - #6 ;
+INFO  13:56:26,804 - #3 {
+INFO  13:56:26,805 - #43 void
+INFO  13:56:26,806 - #48 main
+INFO  13:56:26,806 - #14 (
+INFO  13:56:26,806 - #15 )
+INFO  13:56:26,809 - #48 int
+INFO  13:56:26,814 - #48 x
+INFO  13:56:26,814 - #7 ,
+INFO  13:56:26,814 - #48 i
+INFO  13:56:26,815 - #6 ;
+INFO  13:56:26,816 - #48 char
+INFO  13:56:26,816 - #48 c
+INFO  13:56:26,816 - #6 ;
+INFO  13:56:26,817 - #48 int
+INFO  13:56:26,817 - #48 arr
+INFO  13:56:26,817 - #8 [
+INFO  13:56:26,817 - #9 ]
+INFO  13:56:26,818 - #6 ;
+INFO  13:56:26,818 - #3 {
+INFO  13:56:26,820 - #23 print
+INFO  13:56:26,822 - #14 (
+INFO  13:56:26,823 - #47 3
+INFO  13:56:26,823 - #15 )
+INFO  13:56:26,824 - #6 ;
+INFO  13:56:26,825 - #4 }
+INFO  13:56:26,826 - #4 }
+INFO  13:56:26,852 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       s
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumFactor(
+               3
+              ) [NumFactor]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:56:26,854 - ===================================
+INFO  13:56:26,892 - Var s u delu za globalno na liniji 6
+INFO  13:56:26,893 - Var x u delu za lokalno na liniji 8
+INFO  13:56:26,893 - Var i u delu za lokalno na liniji 8
+INFO  13:56:26,893 - Var c u delu za lokalno na liniji 8
+INFO  13:56:26,914 - Parsiranje uspesno zavrseno!

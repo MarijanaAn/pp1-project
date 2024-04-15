@@ -1,0 +1,916 @@
+INFO  17:16:38,039 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  17:16:39,455 - #2 program
+INFO  17:16:39,456 - #48 p
+INFO  17:16:39,456 - #5 namespace
+INFO  17:16:39,511 - #48 sizes
+INFO  17:16:39,512 - #3 {
+INFO  17:16:39,513 - #10 const
+INFO  17:16:39,519 - #48 int
+INFO  17:16:39,520 - #48 tableSize
+INFO  17:16:39,521 - #24 =
+INFO  17:16:39,522 - #47 10
+ERROR 17:16:39,522 - 
+Sintaksna greska na liniji 3
+INFO  17:16:39,523 - #6 ;
+INFO  17:16:39,523 - #3 {
+INFO  17:16:39,524 - #4 }
+INFO  17:16:39,571 - #4 }
+ERROR 17:16:39,580 - Izvrsen oporavak od greske u definiciji globalne promenljive na liniji 15
+INFO  17:16:39,590 - #48 Table
+INFO  17:16:39,595 - #48 val
+INFO  17:16:39,596 - #6 ;
+INFO  17:16:39,657 - #48 int
+INFO  17:16:39,659 - #48 rows
+INFO  17:16:39,659 - #7 ,
+INFO  17:16:39,659 - #48 columns
+INFO  17:16:39,659 - #6 ;
+INFO  17:16:39,660 - #10 const
+INFO  17:16:39,660 - #48 int
+INFO  17:16:39,661 - #48 y
+INFO  17:16:39,661 - #48 u
+ERROR 17:16:39,661 - 
+Sintaksna greska na liniji 13
+INFO  17:16:39,661 - #24 =
+INFO  17:16:39,662 - #47 0
+INFO  17:16:39,662 - #6 ;
+INFO  17:16:39,662 - #3 {
+INFO  17:16:39,662 - #43 void
+INFO  17:16:39,663 - #48 f
+ERROR 17:16:39,663 - Izvrsen oporavak od greske u definiciji globalne promenljive na liniji 0
+INFO  17:16:39,663 - #14 (
+INFO  17:16:39,663 - #48 char
+INFO  17:16:39,664 - #48 ch
+INFO  17:16:39,664 - #7 ,
+INFO  17:16:39,669 - #48 int
+INFO  17:16:39,670 - #48 a
+INFO  17:16:39,672 - #7 ,
+INFO  17:16:39,673 - #48 int
+INFO  17:16:39,673 - #48 arg
+INFO  17:16:39,673 - #15 )
+INFO  17:16:39,674 - #48 int
+INFO  17:16:39,678 - #48 x
+INFO  17:16:39,679 - #6 ;
+INFO  17:16:39,679 - #3 {
+INFO  17:16:39,680 - #48 x
+INFO  17:16:39,685 - #22 --
+INFO  17:16:39,686 - #6 ;
+INFO  17:16:39,687 - #48 x
+INFO  17:16:39,688 - #24 =
+INFO  17:16:39,689 - #48 arg
+INFO  17:16:39,745 - #31 +
+INFO  17:16:39,747 - #6 ;
+ERROR 17:16:39,747 - 
+Sintaksna greska na liniji 19
+INFO  17:16:39,747 - #4 }
+INFO  17:16:39,752 - #43 void
+INFO  17:16:39,752 - #48 main
+ERROR 17:16:39,753 - Izvrsen oporavak od greske u konstrukciji iskaza dodele u liniji 0
+INFO  17:16:39,802 - #14 (
+INFO  17:16:39,803 - #15 )
+INFO  17:16:39,851 - #48 int
+INFO  17:16:39,852 - #48 x
+INFO  17:16:39,852 - #7 ,
+INFO  17:16:39,854 - #48 i
+INFO  17:16:39,855 - #6 ;
+INFO  17:16:39,855 - #48 char
+INFO  17:16:39,855 - #48 c
+INFO  17:16:39,855 - #6 ;
+INFO  17:16:39,855 - #48 int
+INFO  17:16:39,855 - #48 arr
+INFO  17:16:39,856 - #8 [
+INFO  17:16:39,856 - #9 ]
+INFO  17:16:39,856 - #6 ;
+INFO  17:16:39,856 - #3 {
+INFO  17:16:39,856 - #48 val
+INFO  17:16:39,856 - #24 =
+INFO  17:16:39,856 - #18 new
+INFO  17:16:39,862 - #48 Table
+INFO  17:16:39,863 - #14 (
+INFO  17:16:39,863 - #15 )
+INFO  17:16:39,912 - #6 ;
+INFO  17:16:39,912 - #48 val
+INFO  17:16:39,913 - #16 .
+INFO  17:16:39,913 - #48 setfactor
+INFO  17:16:39,913 - #14 (
+INFO  17:16:39,914 - #47 2
+INFO  17:16:39,914 - #15 )
+INFO  17:16:39,915 - #6 ;
+INFO  17:16:39,915 - #48 arr
+INFO  17:16:39,915 - #24 =
+INFO  17:16:39,916 - #18 new
+INFO  17:16:39,916 - #48 int
+INFO  17:16:39,916 - #8 [
+INFO  17:16:39,916 - #47 3
+INFO  17:16:39,916 - #9 ]
+INFO  17:16:39,917 - #6 ;
+INFO  17:16:39,917 - #36 for
+INFO  17:16:39,917 - #14 (
+INFO  17:16:39,918 - #48 i
+INFO  17:16:39,918 - #24 =
+INFO  17:16:39,918 - #47 0
+INFO  17:16:39,918 - #6 ;
+INFO  17:16:39,919 - #48 i
+INFO  17:16:39,919 - #29 <
+INFO  17:16:39,919 - #47 3
+INFO  17:16:40,009 - #6 ;
+INFO  17:16:40,011 - #48 i
+INFO  17:16:40,011 - #21 ++
+INFO  17:16:40,012 - #15 )
+INFO  17:16:40,012 - #3 {
+INFO  17:16:40,013 - #48 arr
+INFO  17:16:40,013 - #8 [
+INFO  17:16:40,013 - #48 i
+INFO  17:16:40,013 - #9 ]
+INFO  17:16:40,014 - #24 =
+INFO  17:16:40,020 - #48 i
+INFO  17:16:40,021 - #6 ;
+INFO  17:16:40,021 - #4 }
+INFO  17:16:40,023 - #36 for
+INFO  17:16:40,024 - #14 (
+INFO  17:16:40,024 - #48 i
+INFO  17:16:40,025 - #24 =
+INFO  17:16:40,025 - #47 0
+INFO  17:16:40,025 - #6 ;
+INFO  17:16:40,025 - #48 i
+INFO  17:16:40,025 - #29 <
+INFO  17:16:40,027 - #47 3
+INFO  17:16:40,028 - #6 ;
+INFO  17:16:40,028 - #48 i
+INFO  17:16:40,029 - #21 ++
+INFO  17:16:40,029 - #15 )
+INFO  17:16:40,029 - #23 print
+INFO  17:16:40,030 - #14 (
+INFO  17:16:40,030 - #48 arr
+INFO  17:16:40,030 - #8 [
+INFO  17:16:40,030 - #48 i
+INFO  17:16:40,030 - #9 ]
+INFO  17:16:40,030 - #15 )
+INFO  17:16:40,030 - #6 ;
+INFO  17:16:40,030 - #48 val
+INFO  17:16:40,031 - #16 .
+INFO  17:16:40,031 - #48 pos
+INFO  17:16:40,031 - #24 =
+INFO  17:16:40,031 - #18 new
+INFO  17:16:40,031 - #48 int
+INFO  17:16:40,031 - #8 [
+INFO  17:16:40,031 - #48 sizes
+INFO  17:16:40,031 - #17 ::
+INFO  17:16:40,031 - #48 tableSize
+INFO  17:16:40,031 - #9 ]
+INFO  17:16:40,032 - #6 ;
+INFO  17:16:40,032 - #48 val
+INFO  17:16:40,032 - #16 .
+INFO  17:16:40,032 - #48 neg
+INFO  17:16:40,033 - #24 =
+INFO  17:16:40,033 - #18 new
+INFO  17:16:40,034 - #48 int
+INFO  17:16:40,034 - #8 [
+INFO  17:16:40,034 - #48 sizes
+INFO  17:16:40,035 - #17 ::
+INFO  17:16:40,035 - #48 tableSize
+INFO  17:16:40,036 - #9 ]
+INFO  17:16:40,036 - #6 ;
+INFO  17:16:40,036 - #37 read
+INFO  17:16:40,036 - #14 (
+INFO  17:16:40,036 - #48 x
+INFO  17:16:40,036 - #15 )
+INFO  17:16:40,037 - #6 ;
+INFO  17:16:40,037 - #36 for
+INFO  17:16:40,037 - #14 (
+INFO  17:16:40,037 - #6 ;
+INFO  17:16:40,039 - #48 i
+INFO  17:16:40,040 - #29 <
+INFO  17:16:40,040 - #48 sizes
+INFO  17:16:40,040 - #17 ::
+INFO  17:16:40,040 - #48 tableSize
+INFO  17:16:40,040 - #6 ;
+INFO  17:16:40,040 - #48 i
+INFO  17:16:40,040 - #21 ++
+INFO  17:16:40,041 - #15 )
+INFO  17:16:40,041 - #3 {
+INFO  17:16:40,041 - #48 val
+INFO  17:16:40,041 - #16 .
+INFO  17:16:40,041 - #48 putp
+INFO  17:16:40,041 - #14 (
+INFO  17:16:40,041 - #47 0
+INFO  17:16:40,042 - #7 ,
+INFO  17:16:40,042 - #48 i
+INFO  17:16:40,042 - #15 )
+INFO  17:16:40,044 - #6 ;
+INFO  17:16:40,045 - #48 val
+INFO  17:16:40,045 - #16 .
+INFO  17:16:40,045 - #48 putn
+INFO  17:16:40,045 - #14 (
+INFO  17:16:40,045 - #47 0
+INFO  17:16:40,045 - #7 ,
+INFO  17:16:40,045 - #48 i
+INFO  17:16:40,046 - #15 )
+INFO  17:16:40,046 - #6 ;
+INFO  17:16:40,046 - #4 }
+INFO  17:16:40,046 - #48 f
+INFO  17:16:40,046 - #14 (
+INFO  17:16:40,046 - #48 c
+INFO  17:16:40,046 - #7 ,
+INFO  17:16:40,047 - #48 x
+INFO  17:16:40,047 - #7 ,
+INFO  17:16:40,047 - #48 i
+INFO  17:16:40,047 - #15 )
+INFO  17:16:40,047 - #6 ;
+INFO  17:16:40,047 - #37 read
+INFO  17:16:40,047 - #14 (
+INFO  17:16:40,048 - #48 rows
+INFO  17:16:40,048 - #15 )
+INFO  17:16:40,048 - #6 ;
+INFO  17:16:40,048 - #48 x
+INFO  17:16:40,048 - #24 =
+INFO  17:16:40,048 - #48 rows
+INFO  17:16:40,048 - #6 ;
+INFO  17:16:40,049 - #36 for
+INFO  17:16:40,049 - #14 (
+INFO  17:16:40,049 - #6 ;
+INFO  17:16:40,049 - #6 ;
+INFO  17:16:40,051 - #15 )
+INFO  17:16:40,051 - #3 {
+INFO  17:16:40,051 - #41 if
+INFO  17:16:40,051 - #14 (
+INFO  17:16:40,051 - #48 x
+INFO  17:16:40,051 - #30 <=
+INFO  17:16:40,051 - #47 0
+INFO  17:16:40,054 - #15 )
+INFO  17:16:40,055 - #40 break
+INFO  17:16:40,056 - #6 ;
+INFO  17:16:40,056 - #4 }
+INFO  17:16:40,059 - #4 }
+INFO  17:16:40,059 - #4 }
+INFO  17:16:40,078 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      ErrorDecls(
+      ) [ErrorDecls]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  ErrorDecls(
+  ) [ErrorDecls]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      VoidMethod(
+        MethName(
+         f
+        ) [MethName]
+        FormParam(
+          MultFormPars(
+            MultFormPars(
+              SingleFormPars(
+                FormalParamDecl(
+                  Types(
+                   char
+                  ) [Types]
+                 ch
+                  NoBrackets(
+                  ) [NoBrackets]
+                ) [FormalParamDecl]
+              ) [SingleFormPars]
+              FormalParamDecl(
+                Types(
+                 int
+                ) [Types]
+               a
+                NoBrackets(
+                ) [NoBrackets]
+              ) [FormalParamDecl]
+            ) [MultFormPars]
+            FormalParamDecl(
+              Types(
+               int
+              ) [Types]
+             arg
+              NoBrackets(
+              ) [NoBrackets]
+            ) [FormalParamDecl]
+          ) [MultFormPars]
+        ) [FormParam]
+        VarDelcarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Types(
+             int
+            ) [Types]
+           x
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        Stms(
+          Stms(
+            NoStms(
+            ) [NoStms]
+            DStm(
+              Dec(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+              ) [Dec]
+            ) [DStm]
+          ) [Stms]
+          DStm(
+            ErrorDesStmt(
+            ) [ErrorDesStmt]
+          ) [DStm]
+        ) [Stms]
+      ) [VoidMethod]
+    ) [MethodDeclarations]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+             x
+              NoBrackets(
+              ) [NoBrackets]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+               i
+                NoBrackets(
+                ) [NoBrackets]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+           c
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+         arr
+          Brackets(
+          ) [Brackets]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              Stms(
+                Stms(
+                  Stms(
+                    Stms(
+                      Stms(
+                        Stms(
+                          Stms(
+                            Stms(
+                              Stms(
+                                NoStms(
+                                ) [NoStms]
+                                DStm(
+                                  AssignExpr(
+                                    DesignatorName(
+                                     val
+                                    ) [DesignatorName]
+                                    Assign(
+                                    ) [Assign]
+                                    TermExpr(
+                                      FactorTerm(
+                                        NewTypeActual(
+                                          Types(
+                                           Table
+                                          ) [Types]
+                                          NoActuals(
+                                          ) [NoActuals]
+                                        ) [NewTypeActual]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [AssignExpr]
+                                ) [DStm]
+                              ) [Stms]
+                              DStm(
+                                ActualParDes(
+                                  DesignatorPeriod(
+                                    DesignatorName(
+                                     val
+                                    ) [DesignatorName]
+                                   setfactor
+                                  ) [DesignatorPeriod]
+                                  Actuals(
+                                    ActualParam(
+                                      TermExpr(
+                                        FactorTerm(
+                                          NumFactor(
+                                           2
+                                          ) [NumFactor]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [ActualParam]
+                                  ) [Actuals]
+                                ) [ActualParDes]
+                              ) [DStm]
+                            ) [Stms]
+                            DStm(
+                              AssignExpr(
+                                DesignatorName(
+                                 arr
+                                ) [DesignatorName]
+                                Assign(
+                                ) [Assign]
+                                TermExpr(
+                                  FactorTerm(
+                                    NewTypeExpr(
+                                      Types(
+                                       int
+                                      ) [Types]
+                                      TermExpr(
+                                        FactorTerm(
+                                          NumFactor(
+                                           3
+                                          ) [NumFactor]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [NewTypeExpr]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [AssignExpr]
+                            ) [DStm]
+                          ) [Stms]
+                          ForStmt(
+                            SingleDs(
+                              AssignExpr(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                                Assign(
+                                ) [Assign]
+                                TermExpr(
+                                  FactorTerm(
+                                    NumFactor(
+                                     0
+                                    ) [NumFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [AssignExpr]
+                            ) [SingleDs]
+                            CondFacts(
+                              RelExpr(
+                                TermExpr(
+                                  FactorTerm(
+                                    Var(
+                                      DesignatorName(
+                                       i
+                                      ) [DesignatorName]
+                                    ) [Var]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                                Less(
+                                ) [Less]
+                                TermExpr(
+                                  FactorTerm(
+                                    NumFactor(
+                                     3
+                                    ) [NumFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [RelExpr]
+                            ) [CondFacts]
+                            SingleDs(
+                              Inc(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                              ) [Inc]
+                            ) [SingleDs]
+                            Stmt(
+                              Stms(
+                                NoStms(
+                                ) [NoStms]
+                                DStm(
+                                  AssignExpr(
+                                    DesignatorExpr(
+                                      DesignatorName(
+                                       arr
+                                      ) [DesignatorName]
+                                      TermExpr(
+                                        FactorTerm(
+                                          Var(
+                                            DesignatorName(
+                                             i
+                                            ) [DesignatorName]
+                                          ) [Var]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [DesignatorExpr]
+                                    Assign(
+                                    ) [Assign]
+                                    TermExpr(
+                                      FactorTerm(
+                                        Var(
+                                          DesignatorName(
+                                           i
+                                          ) [DesignatorName]
+                                        ) [Var]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [AssignExpr]
+                                ) [DStm]
+                              ) [Stms]
+                            ) [Stmt]
+                          ) [ForStmt]
+                        ) [Stms]
+                        ForStmt(
+                          SingleDs(
+                            AssignExpr(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                              Assign(
+                              ) [Assign]
+                              TermExpr(
+                                FactorTerm(
+                                  NumFactor(
+                                   0
+                                  ) [NumFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [AssignExpr]
+                          ) [SingleDs]
+                          CondFacts(
+                            RelExpr(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorName(
+                                     i
+                                    ) [DesignatorName]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                              Less(
+                              ) [Less]
+                              TermExpr(
+                                FactorTerm(
+                                  NumFactor(
+                                   3
+                                  ) [NumFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [RelExpr]
+                          ) [CondFacts]
+                          SingleDs(
+                            Inc(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                            ) [Inc]
+                          ) [SingleDs]
+                          PrintStmt(
+                            TermExpr(
+                              FactorTerm(
+                                Var(
+                                  DesignatorExpr(
+                                    DesignatorName(
+                                     arr
+                                    ) [DesignatorName]
+                                    TermExpr(
+                                      FactorTerm(
+                                        Var(
+                                          DesignatorName(
+                                           i
+                                          ) [DesignatorName]
+                                        ) [Var]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [DesignatorExpr]
+                                ) [Var]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [PrintStmt]
+                        ) [ForStmt]
+                      ) [Stms]
+                      DStm(
+                        AssignExpr(
+                          DesignatorPeriod(
+                            DesignatorName(
+                             val
+                            ) [DesignatorName]
+                           pos
+                          ) [DesignatorPeriod]
+                          Assign(
+                          ) [Assign]
+                          TermExpr(
+                            FactorTerm(
+                              NewTypeExpr(
+                                Types(
+                                 int
+                                ) [Types]
+                                TermExpr(
+                                  FactorTerm(
+                                    Var(
+                                      DesignatorScope(
+                                       sizes
+                                       tableSize
+                                      ) [DesignatorScope]
+                                    ) [Var]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [NewTypeExpr]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [AssignExpr]
+                      ) [DStm]
+                    ) [Stms]
+                    DStm(
+                      AssignExpr(
+                        DesignatorPeriod(
+                          DesignatorName(
+                           val
+                          ) [DesignatorName]
+                         neg
+                        ) [DesignatorPeriod]
+                        Assign(
+                        ) [Assign]
+                        TermExpr(
+                          FactorTerm(
+                            NewTypeExpr(
+                              Types(
+                               int
+                              ) [Types]
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorScope(
+                                     sizes
+                                     tableSize
+                                    ) [DesignatorScope]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [NewTypeExpr]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [AssignExpr]
+                    ) [DStm]
+                  ) [Stms]
+                  ReadDesignator(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [ReadDesignator]
+                ) [Stms]
+                ForStmt(
+                  NoDsList(
+                  ) [NoDsList]
+                  CondFacts(
+                    RelExpr(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      Less(
+                      ) [Less]
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorScope(
+                             sizes
+                             tableSize
+                            ) [DesignatorScope]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [RelExpr]
+                  ) [CondFacts]
+                  SingleDs(
+                    Inc(
+                      DesignatorName(
+                       i
+                      ) [DesignatorName]
+                    ) [Inc]
+                  ) [SingleDs]
+                  Stmt(
+                    Stms(
+                      Stms(
+                        NoStms(
+                        ) [NoStms]
+                        DStm(
+                          ActualParDes(
+                            DesignatorPeriod(
+                              DesignatorName(
+                               val
+                              ) [DesignatorName]
+                             putp
+                            ) [DesignatorPeriod]
+                            Actuals(
+                              ActualParams(
+                                ActualParam(
+                                  TermExpr(
+                                    FactorTerm(
+                                      NumFactor(
+                                       0
+                                      ) [NumFactor]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [ActualParam]
+                                TermExpr(
+                                  FactorTerm(
+                                    Var(
+                                      DesignatorName(
+                                       i
+                                      ) [DesignatorName]
+                                    ) [Var]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [ActualParams]
+                            ) [Actuals]
+                          ) [ActualParDes]
+                        ) [DStm]
+                      ) [Stms]
+                      DStm(
+                        ActualParDes(
+                          DesignatorPeriod(
+                            DesignatorName(
+                             val
+                            ) [DesignatorName]
+                           putn
+                          ) [DesignatorPeriod]
+                          Actuals(
+                            ActualParams(
+                              ActualParam(
+                                TermExpr(
+                                  FactorTerm(
+                                    NumFactor(
+                                     0
+                                    ) [NumFactor]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [ActualParam]
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorName(
+                                     i
+                                    ) [DesignatorName]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [ActualParams]
+                          ) [Actuals]
+                        ) [ActualParDes]
+                      ) [DStm]
+                    ) [Stms]
+                  ) [Stmt]
+                ) [ForStmt]
+              ) [Stms]
+              DStm(
+                ActualParDes(
+                  DesignatorName(
+                   f
+                  ) [DesignatorName]
+                  Actuals(
+                    ActualParams(
+                      ActualParams(
+                        ActualParam(
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                DesignatorName(
+                                 c
+                                ) [DesignatorName]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [ActualParam]
+                        TermExpr(
+                          FactorTerm(
+                            Var(
+                              DesignatorName(
+                               x
+                              ) [DesignatorName]
+                            ) [Var]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [ActualParams]
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [ActualParams]
+                  ) [Actuals]
+                ) [ActualParDes]
+              ) [DStm]
+            ) [Stms]
+            ReadDesignator(
+              DesignatorName(
+               rows
+              ) [DesignatorName]
+            ) [ReadDesignator]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              DesignatorName(
+               x
+              ) [DesignatorName]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorName(
+                     rows
+                    ) [DesignatorName]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+        ForStmt(
+          NoDsList(
+          ) [NoDsList]
+          NoCondFact(
+          ) [NoCondFact]
+          NoDsList(
+          ) [NoDsList]
+          Stmt(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              IfStatement(
+                SingleCondition(
+                  SingleCondTerm(
+                    RelExpr(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorName(
+                             x
+                            ) [DesignatorName]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      Lequal(
+                      ) [Lequal]
+                      TermExpr(
+                        FactorTerm(
+                          NumFactor(
+                           0
+                          ) [NumFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [RelExpr]
+                  ) [SingleCondTerm]
+                ) [SingleCondition]
+                Break(
+                ) [Break]
+              ) [IfStatement]
+            ) [Stms]
+          ) [Stmt]
+        ) [ForStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:16:40,082 - ===================================
+INFO  17:16:40,143 -  Print count calls = 1
+INFO  17:16:40,144 -  Var decl count = 0

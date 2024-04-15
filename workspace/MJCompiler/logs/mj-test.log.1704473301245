@@ -1,0 +1,82 @@
+INFO  17:48:05,851 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  17:48:06,004 - #2 program
+INFO  17:48:06,005 - #48 MJProgram
+INFO  17:48:06,005 - #48 int
+INFO  17:48:06,008 - #48 x
+INFO  17:48:06,009 - #6 ;
+INFO  17:48:06,014 - #48 bool
+INFO  17:48:06,017 - #48 f
+INFO  17:48:06,017 - #6 ;
+INFO  17:48:06,018 - #3 {
+INFO  17:48:06,018 - #48 int
+INFO  17:48:06,020 - #48 main
+INFO  17:48:06,021 - #14 (
+INFO  17:48:06,021 - #15 )
+INFO  17:48:06,022 - #3 {
+INFO  17:48:06,024 - #23 print
+INFO  17:48:06,026 - #14 (
+INFO  17:48:06,026 - #47 1
+INFO  17:48:06,026 - #15 )
+INFO  17:48:06,028 - #6 ;
+INFO  17:48:06,030 - #4 }
+INFO  17:48:06,033 - #4 }
+INFO  17:48:06,043 - Program(
+ MJProgram
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDecl(
+        Types(
+         int
+        ) [Types]
+       x
+        NoBrackets(
+        ) [NoBrackets]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDecl]
+    ) [DeclVar]
+    VarDecl(
+      Types(
+       bool
+      ) [Types]
+     f
+      NoBrackets(
+      ) [NoBrackets]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDecl]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    TypeMethod(
+      Types(
+       int
+      ) [Types]
+     main
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumConst(
+               1
+              ) [NumConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [TypeMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:48:06,045 - ===================================
+INFO  17:48:06,071 -  Print count calls = 1

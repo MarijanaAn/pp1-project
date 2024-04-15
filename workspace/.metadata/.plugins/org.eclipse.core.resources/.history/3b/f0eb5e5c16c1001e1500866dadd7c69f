@@ -1,0 +1,35 @@
+//Test 302
+
+program test302
+int i;
+bool ibool;
+//int niz2;
+//int niz[];
+//int a, curr;
+
+{
+
+	int inc(int s, int d) int lud {
+	lud++;
+	return s + d;
+	}
+	
+		bool verify() {
+		print('v');
+		return false;
+	}
+	void main()
+	int p;
+	{
+		p = inc(4,2);
+		print(p);
+		if(false || verify()) print(6);
+		else print(ord('a'));  
+		ibool = true;
+		if(ibool)
+			if(i == 5) print(3);
+			else print(-1); 			
+		if(i == 3) print(-i);
+		else print(4);  
+	}
+}

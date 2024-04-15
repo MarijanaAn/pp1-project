@@ -1,0 +1,931 @@
+INFO  11:20:21,670 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  11:20:25,181 - #2 program
+INFO  11:20:25,183 - #48 p
+INFO  11:20:25,184 - #5 namespace
+INFO  11:20:25,343 - #48 sizes
+INFO  11:20:25,344 - #3 {
+INFO  11:20:25,350 - #10 const
+INFO  11:20:25,406 - #48 int
+INFO  11:20:25,406 - #48 tableSize
+INFO  11:20:25,407 - #24 =
+INFO  11:20:25,408 - #47 10
+INFO  11:20:25,408 - #6 ;
+INFO  11:20:25,413 - #3 {
+INFO  11:20:25,414 - #4 }
+INFO  11:20:25,421 - #4 }
+INFO  11:20:25,422 - #11 class
+INFO  11:20:25,425 - #48 Table
+INFO  11:20:25,426 - #3 {
+INFO  11:20:25,477 - #48 int
+INFO  11:20:25,543 - #48 pos
+INFO  11:20:25,544 - #8 [
+INFO  11:20:25,545 - #9 ]
+INFO  11:20:25,546 - #7 ,
+INFO  11:20:25,695 - #48 neg
+INFO  11:20:25,709 - #8 [
+INFO  11:20:25,710 - #9 ]
+INFO  11:20:25,712 - #7 ,
+INFO  11:20:25,719 - #48 factor
+INFO  11:20:25,719 - #6 ;
+INFO  11:20:25,722 - #13 static
+ERROR 11:20:25,723 - 
+Sintaksna greska na liniji 9
+INFO  11:20:25,724 - #48 int
+INFO  11:20:25,724 - #48 id
+INFO  11:20:25,724 - #6 ;
+INFO  11:20:25,742 - #13 static
+INFO  11:20:25,743 - #3 {
+INFO  11:20:25,743 - #48 id
+INFO  11:20:25,743 - #24 =
+INFO  11:20:25,744 - #47 0
+INFO  11:20:25,744 - #6 ;
+INFO  11:20:25,744 - #4 }
+INFO  11:20:25,744 - #3 {
+INFO  11:20:25,744 - #43 void
+INFO  11:20:25,755 - #48 setfactor
+INFO  11:20:25,756 - #14 (
+INFO  11:20:25,756 - #48 int
+INFO  11:20:25,756 - #48 factor
+INFO  11:20:25,756 - #15 )
+INFO  11:20:25,756 - #3 {
+INFO  11:20:25,757 - #46 this
+INFO  11:20:25,761 - #16 .
+INFO  11:20:25,761 - #48 factor
+INFO  11:20:25,762 - #24 =
+INFO  11:20:25,762 - #48 factor
+INFO  11:20:25,762 - #6 ;
+INFO  11:20:25,762 - #4 }
+INFO  11:20:25,762 - #43 void
+INFO  11:20:25,762 - #48 putp
+INFO  11:20:25,762 - #14 (
+INFO  11:20:25,763 - #48 int
+INFO  11:20:25,763 - #48 a
+INFO  11:20:25,763 - #7 ,
+INFO  11:20:25,766 - #48 int
+INFO  11:20:25,767 - #48 idx
+INFO  11:20:25,771 - #15 )
+INFO  11:20:25,772 - #3 {
+INFO  11:20:25,774 - #46 this
+INFO  11:20:25,781 - #16 .
+INFO  11:20:25,784 - #48 pos
+INFO  11:20:25,787 - #8 [
+INFO  11:20:25,788 - #48 idx
+INFO  11:20:25,788 - #9 ]
+INFO  11:20:25,788 - #24 =
+INFO  11:20:25,788 - #48 a
+INFO  11:20:25,789 - #6 ;
+INFO  11:20:25,789 - #4 }
+INFO  11:20:25,789 - #43 void
+INFO  11:20:25,789 - #48 putn
+INFO  11:20:25,789 - #14 (
+INFO  11:20:25,789 - #48 int
+INFO  11:20:25,790 - #48 a
+INFO  11:20:25,790 - #7 ,
+INFO  11:20:25,790 - #48 int
+INFO  11:20:25,791 - #48 idx
+INFO  11:20:25,791 - #15 )
+INFO  11:20:25,792 - #3 {
+INFO  11:20:25,792 - #46 this
+INFO  11:20:25,792 - #16 .
+INFO  11:20:25,792 - #48 neg
+INFO  11:20:25,792 - #8 [
+INFO  11:20:25,793 - #48 idx
+INFO  11:20:25,793 - #9 ]
+INFO  11:20:25,793 - #24 =
+INFO  11:20:25,793 - #48 a
+INFO  11:20:25,793 - #6 ;
+INFO  11:20:25,793 - #4 }
+INFO  11:20:25,794 - #48 int
+INFO  11:20:25,794 - #48 getp
+INFO  11:20:25,794 - #14 (
+INFO  11:20:25,794 - #48 int
+INFO  11:20:25,794 - #48 idx
+INFO  11:20:25,795 - #15 )
+INFO  11:20:25,795 - #3 {
+INFO  11:20:25,795 - #38 return
+INFO  11:20:25,795 - #48 pos
+INFO  11:20:25,795 - #8 [
+INFO  11:20:25,796 - #48 idx
+INFO  11:20:25,796 - #9 ]
+INFO  11:20:25,796 - #6 ;
+INFO  11:20:25,797 - #4 }
+INFO  11:20:25,797 - #48 int
+INFO  11:20:25,797 - #48 getn
+INFO  11:20:25,800 - #14 (
+INFO  11:20:25,800 - #48 int
+INFO  11:20:25,800 - #48 idx
+INFO  11:20:25,800 - #15 )
+INFO  11:20:25,800 - #3 {
+INFO  11:20:25,800 - #38 return
+INFO  11:20:25,801 - #48 neg
+INFO  11:20:25,801 - #8 [
+INFO  11:20:25,801 - #48 idx
+INFO  11:20:25,805 - #9 ]
+INFO  11:20:25,806 - #6 ;
+INFO  11:20:25,806 - #4 }
+INFO  11:20:25,809 - #4 }
+INFO  11:20:25,810 - #4 }
+INFO  11:20:25,810 - #48 Table
+INFO  11:20:25,811 - #48 val
+INFO  11:20:25,811 - #6 ;
+INFO  11:20:25,811 - #48 int
+INFO  11:20:25,811 - #48 rows
+INFO  11:20:25,812 - #7 ,
+ERROR 11:20:25,812 - Izvrsen oporavak od greske u definiciji globalne promenljive na liniji 0
+INFO  11:20:25,820 - #48 columns
+INFO  11:20:25,821 - #6 ;
+INFO  11:20:25,821 - #10 const
+INFO  11:20:25,823 - #48 int
+INFO  11:20:25,823 - #48 y
+INFO  11:20:25,823 - #24 =
+INFO  11:20:25,823 - #47 0
+INFO  11:20:25,823 - #6 ;
+INFO  11:20:25,823 - #3 {
+INFO  11:20:25,823 - #43 void
+INFO  11:20:25,823 - #48 f
+INFO  11:20:25,823 - #14 (
+INFO  11:20:25,824 - #48 char
+INFO  11:20:25,874 - #48 ch
+INFO  11:20:25,874 - #7 ,
+INFO  11:20:25,874 - #48 int
+INFO  11:20:25,875 - #48 a
+INFO  11:20:25,875 - #7 ,
+INFO  11:20:25,875 - #48 int
+INFO  11:20:25,876 - #48 arg
+INFO  11:20:25,876 - #15 )
+INFO  11:20:25,877 - #48 int
+INFO  11:20:25,877 - #48 x
+INFO  11:20:25,877 - #6 ;
+INFO  11:20:25,877 - #3 {
+INFO  11:20:25,878 - #48 x
+INFO  11:20:25,989 - #22 --
+INFO  11:20:25,989 - #6 ;
+INFO  11:20:25,990 - #48 x
+INFO  11:20:25,990 - #24 =
+INFO  11:20:25,990 - #48 arg
+INFO  11:20:26,000 - #31 +
+INFO  11:20:26,001 - #6 ;
+ERROR 11:20:26,001 - 
+Sintaksna greska na liniji 30
+INFO  11:20:26,001 - #4 }
+INFO  11:20:26,002 - #43 void
+INFO  11:20:26,002 - #48 main
+ERROR 11:20:26,002 - Izvrsen oporavak od greske u konstrukciji iskaza dodele u liniji 0
+INFO  11:20:26,007 - #14 (
+INFO  11:20:26,007 - #15 )
+INFO  11:20:26,010 - #48 int
+INFO  11:20:26,010 - #48 x
+INFO  11:20:26,010 - #7 ,
+INFO  11:20:26,011 - #48 i
+INFO  11:20:26,011 - #6 ;
+INFO  11:20:26,011 - #48 char
+INFO  11:20:26,012 - #48 c
+INFO  11:20:26,012 - #6 ;
+INFO  11:20:26,012 - #48 int
+INFO  11:20:26,012 - #48 arr
+INFO  11:20:26,013 - #8 [
+INFO  11:20:26,013 - #9 ]
+INFO  11:20:26,013 - #6 ;
+INFO  11:20:26,013 - #3 {
+INFO  11:20:26,013 - #48 val
+INFO  11:20:26,013 - #24 =
+INFO  11:20:26,013 - #18 new
+INFO  11:20:26,016 - #48 Table
+INFO  11:20:26,016 - #14 (
+INFO  11:20:26,017 - #15 )
+INFO  11:20:26,024 - #6 ;
+INFO  11:20:26,025 - #48 val
+INFO  11:20:26,026 - #16 .
+ERROR 11:20:26,026 - 
+Sintaksna greska na liniji 36
+INFO  11:20:26,026 - #48 setfactor
+INFO  11:20:26,026 - #14 (
+INFO  11:20:26,026 - #47 2
+INFO  11:20:26,026 - #15 )
+INFO  11:20:26,026 - #6 ;
+INFO  11:20:26,027 - #48 arr
+INFO  11:20:26,027 - #24 =
+INFO  11:20:26,028 - #18 new
+ERROR 11:20:26,028 - Izvrsen oporavak od greske u konstrukciji iskaza dodele u liniji 0
+INFO  11:20:26,029 - #48 int
+INFO  11:20:26,029 - #8 [
+INFO  11:20:26,029 - #47 3
+INFO  11:20:26,029 - #9 ]
+INFO  11:20:26,030 - #6 ;
+INFO  11:20:26,031 - #36 for
+INFO  11:20:26,032 - #14 (
+INFO  11:20:26,033 - #48 i
+INFO  11:20:26,033 - #24 =
+INFO  11:20:26,033 - #47 0
+INFO  11:20:26,033 - #6 ;
+INFO  11:20:26,034 - #48 i
+INFO  11:20:26,034 - #29 <
+INFO  11:20:26,034 - #47 3
+INFO  11:20:26,085 - #6 ;
+INFO  11:20:26,087 - #48 i
+INFO  11:20:26,087 - #21 ++
+INFO  11:20:26,088 - #15 )
+INFO  11:20:26,089 - #3 {
+INFO  11:20:26,089 - #48 arr
+INFO  11:20:26,089 - #8 [
+INFO  11:20:26,103 - #48 i
+INFO  11:20:26,103 - #9 ]
+INFO  11:20:26,103 - #24 =
+INFO  11:20:26,104 - #48 i
+INFO  11:20:26,104 - #6 ;
+INFO  11:20:26,104 - #4 }
+INFO  11:20:26,104 - #36 for
+INFO  11:20:26,105 - #14 (
+INFO  11:20:26,105 - #48 i
+INFO  11:20:26,106 - #24 =
+INFO  11:20:26,106 - #47 0
+INFO  11:20:26,106 - #6 ;
+INFO  11:20:26,106 - #48 i
+INFO  11:20:26,107 - #29 <
+INFO  11:20:26,107 - #47 3
+INFO  11:20:26,107 - #6 ;
+INFO  11:20:26,107 - #48 i
+INFO  11:20:26,107 - #21 ++
+INFO  11:20:26,108 - #15 )
+INFO  11:20:26,108 - #23 print
+INFO  11:20:26,108 - #14 (
+INFO  11:20:26,108 - #48 arr
+INFO  11:20:26,108 - #8 [
+INFO  11:20:26,108 - #48 i
+INFO  11:20:26,108 - #9 ]
+INFO  11:20:26,108 - #15 )
+INFO  11:20:26,109 - #6 ;
+INFO  11:20:26,109 - #48 val
+INFO  11:20:26,109 - #16 .
+ERROR 11:20:26,111 - 
+Sintaksna greska na liniji 42
+INFO  11:20:26,111 - #48 pos
+INFO  11:20:26,111 - #24 =
+INFO  11:20:26,125 - #18 new
+INFO  11:20:26,126 - #48 int
+INFO  11:20:26,127 - #8 [
+INFO  11:20:26,128 - #48 sizes
+INFO  11:20:26,130 - #17 ::
+INFO  11:20:26,131 - #48 tableSize
+INFO  11:20:26,192 - #9 ]
+INFO  11:20:26,192 - #6 ;
+INFO  11:20:26,193 - #48 val
+INFO  11:20:26,193 - #16 .
+INFO  11:20:26,193 - #48 neg
+INFO  11:20:26,193 - #24 =
+INFO  11:20:26,193 - #18 new
+INFO  11:20:26,193 - #48 int
+INFO  11:20:26,193 - #8 [
+INFO  11:20:26,193 - #48 sizes
+INFO  11:20:26,193 - #17 ::
+INFO  11:20:26,193 - #48 tableSize
+INFO  11:20:26,193 - #9 ]
+INFO  11:20:26,194 - #6 ;
+INFO  11:20:26,194 - #37 read
+INFO  11:20:26,202 - #14 (
+INFO  11:20:26,202 - #48 x
+ERROR 11:20:26,202 - Izvrsen oporavak od greske u konstrukciji iskaza dodele u liniji 0
+INFO  11:20:26,203 - #15 )
+INFO  11:20:26,213 - #6 ;
+INFO  11:20:26,214 - #36 for
+INFO  11:20:26,218 - #14 (
+INFO  11:20:26,218 - #6 ;
+INFO  11:20:26,228 - #48 i
+INFO  11:20:26,229 - #29 <
+INFO  11:20:26,229 - #48 sizes
+INFO  11:20:26,229 - #17 ::
+INFO  11:20:26,229 - #48 tableSize
+INFO  11:20:26,229 - #6 ;
+INFO  11:20:26,229 - #48 i
+INFO  11:20:26,229 - #21 ++
+INFO  11:20:26,229 - #15 )
+INFO  11:20:26,229 - #3 {
+INFO  11:20:26,229 - #48 val
+INFO  11:20:26,230 - #16 .
+ERROR 11:20:26,230 - 
+Sintaksna greska na liniji 47
+INFO  11:20:26,230 - #48 putp
+INFO  11:20:26,230 - #14 (
+INFO  11:20:26,236 - #47 0
+INFO  11:20:26,236 - #7 ,
+INFO  11:20:26,237 - #48 i
+INFO  11:20:26,237 - #15 )
+INFO  11:20:26,237 - #6 ;
+INFO  11:20:26,237 - #48 val
+INFO  11:20:26,237 - #16 .
+INFO  11:20:26,237 - #48 putn
+INFO  11:20:26,237 - #14 (
+INFO  11:20:26,238 - #47 0
+INFO  11:20:26,238 - #7 ,
+INFO  11:20:26,238 - #48 i
+INFO  11:20:26,238 - #15 )
+INFO  11:20:26,238 - #6 ;
+INFO  11:20:26,238 - #4 }
+INFO  11:20:26,238 - #48 f
+INFO  11:20:26,238 - #14 (
+ERROR 11:20:26,238 - Izvrsen oporavak od greske u konstrukciji iskaza dodele u liniji 32
+INFO  11:20:26,239 - #48 c
+INFO  11:20:26,239 - #7 ,
+INFO  11:20:26,239 - #48 x
+INFO  11:20:26,240 - #7 ,
+INFO  11:20:26,240 - #48 i
+INFO  11:20:26,241 - #15 )
+INFO  11:20:26,241 - #6 ;
+INFO  11:20:26,242 - #37 read
+INFO  11:20:26,243 - #14 (
+INFO  11:20:26,243 - #48 rows
+INFO  11:20:26,243 - #15 )
+INFO  11:20:26,243 - #6 ;
+INFO  11:20:26,243 - #48 x
+INFO  11:20:26,243 - #24 =
+INFO  11:20:26,243 - #48 rows
+INFO  11:20:26,244 - #6 ;
+INFO  11:20:26,244 - #36 for
+INFO  11:20:26,245 - #14 (
+INFO  11:20:26,245 - #6 ;
+INFO  11:20:26,246 - #6 ;
+INFO  11:20:26,291 - #15 )
+INFO  11:20:26,292 - #3 {
+INFO  11:20:26,292 - #41 if
+INFO  11:20:26,292 - #14 (
+INFO  11:20:26,293 - #48 x
+INFO  11:20:26,293 - #30 <=
+INFO  11:20:26,293 - #47 0
+INFO  11:20:26,296 - #15 )
+INFO  11:20:26,297 - #40 break
+INFO  11:20:26,298 - #6 ;
+INFO  11:20:26,303 - #4 }
+INFO  11:20:26,307 - #4 }
+INFO  11:20:26,307 - #4 }
+INFO  11:20:26,343 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclConst(
+    DeclVar(
+      ErrorDecls(
+      ) [ErrorDecls]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         rows
+        ) [VarDeclName]
+        VarDeclars(
+          NoVarDecls(
+          ) [NoVarDecls]
+          VarDeclName(
+           columns
+          ) [VarDeclName]
+        ) [VarDeclars]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    ConstDeclarations(
+      Types(
+       int
+      ) [Types]
+      NumConst(
+       y
+       0
+      ) [NumConst]
+      NoConstDecl(
+      ) [NoConstDecl]
+    ) [ConstDeclarations]
+  ) [DeclConst]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      VoidMethod(
+        MethName(
+         f
+        ) [MethName]
+        FormParam(
+          FormParsVarList(
+            FormParsVarList(
+              FormParsVar(
+                Types(
+                 char
+                ) [Types]
+               ch
+              ) [FormParsVar]
+              Types(
+               int
+              ) [Types]
+             a
+            ) [FormParsVarList]
+            Types(
+             int
+            ) [Types]
+           arg
+          ) [FormParsVarList]
+        ) [FormParam]
+        VarDelcarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Types(
+             int
+            ) [Types]
+            VarDeclName(
+             x
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        Stms(
+          Stms(
+            NoStms(
+            ) [NoStms]
+            DStm(
+              Dec(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [Dec]
+            ) [DStm]
+          ) [Stms]
+          DStm(
+            ErrorDesStmt(
+            ) [ErrorDesStmt]
+          ) [DStm]
+        ) [Stms]
+      ) [VoidMethod]
+    ) [MethodDeclarations]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              Stms(
+                Stms(
+                  Stms(
+                    Stms(
+                      Stms(
+                        Stms(
+                          Stms(
+                            Stms(
+                              NoStms(
+                              ) [NoStms]
+                              DStm(
+                                AssignExpr(
+                                  DesignatorIdent(
+                                   val
+                                  ) [DesignatorIdent]
+                                  Assign(
+                                  ) [Assign]
+                                  TermExpr(
+                                    FactorTerm(
+                                      NewTypeActual(
+                                        Types(
+                                         Table
+                                        ) [Types]
+                                        NoActuals(
+                                        ) [NoActuals]
+                                      ) [NewTypeActual]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [AssignExpr]
+                              ) [DStm]
+                            ) [Stms]
+                            DStm(
+                              ErrorDesStmt(
+                              ) [ErrorDesStmt]
+                            ) [DStm]
+                          ) [Stms]
+                          DStm(
+                            AssignExpr(
+                              DesignatorIdent(
+                               arr
+                              ) [DesignatorIdent]
+                              Assign(
+                              ) [Assign]
+                              TermExpr(
+                                FactorTerm(
+                                  NewTypeExpr(
+                                    Types(
+                                     int
+                                    ) [Types]
+                                    TermExpr(
+                                      FactorTerm(
+                                        NumFactor(
+                                         3
+                                        ) [NumFactor]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [NewTypeExpr]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [AssignExpr]
+                          ) [DStm]
+                        ) [Stms]
+                        ForStmt(
+                          SingleDs(
+                            AssignExpr(
+                              DesignatorIdent(
+                               i
+                              ) [DesignatorIdent]
+                              Assign(
+                              ) [Assign]
+                              TermExpr(
+                                FactorTerm(
+                                  NumFactor(
+                                   0
+                                  ) [NumFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [AssignExpr]
+                          ) [SingleDs]
+                          CondFacts(
+                            RelExpr(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorIdent(
+                                     i
+                                    ) [DesignatorIdent]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                              Less(
+                              ) [Less]
+                              TermExpr(
+                                FactorTerm(
+                                  NumFactor(
+                                   3
+                                  ) [NumFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [RelExpr]
+                          ) [CondFacts]
+                          SingleDs(
+                            Inc(
+                              DesignatorIdent(
+                               i
+                              ) [DesignatorIdent]
+                            ) [Inc]
+                          ) [SingleDs]
+                          Stmt(
+                            Stms(
+                              NoStms(
+                              ) [NoStms]
+                              DStm(
+                                AssignExpr(
+                                  DesignatorArray(
+                                    DesignatorName(
+                                     arr
+                                    ) [DesignatorName]
+                                    TermExpr(
+                                      FactorTerm(
+                                        Var(
+                                          DesignatorIdent(
+                                           i
+                                          ) [DesignatorIdent]
+                                        ) [Var]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [DesignatorArray]
+                                  Assign(
+                                  ) [Assign]
+                                  TermExpr(
+                                    FactorTerm(
+                                      Var(
+                                        DesignatorIdent(
+                                         i
+                                        ) [DesignatorIdent]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [AssignExpr]
+                              ) [DStm]
+                            ) [Stms]
+                          ) [Stmt]
+                        ) [ForStmt]
+                      ) [Stms]
+                      ForStmt(
+                        SingleDs(
+                          AssignExpr(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                            Assign(
+                            ) [Assign]
+                            TermExpr(
+                              FactorTerm(
+                                NumFactor(
+                                 0
+                                ) [NumFactor]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [AssignExpr]
+                        ) [SingleDs]
+                        CondFacts(
+                          RelExpr(
+                            TermExpr(
+                              FactorTerm(
+                                Var(
+                                  DesignatorIdent(
+                                   i
+                                  ) [DesignatorIdent]
+                                ) [Var]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                            Less(
+                            ) [Less]
+                            TermExpr(
+                              FactorTerm(
+                                NumFactor(
+                                 3
+                                ) [NumFactor]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [RelExpr]
+                        ) [CondFacts]
+                        SingleDs(
+                          Inc(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                          ) [Inc]
+                        ) [SingleDs]
+                        PrintStmt(
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                DesignatorArray(
+                                  DesignatorName(
+                                   arr
+                                  ) [DesignatorName]
+                                  TermExpr(
+                                    FactorTerm(
+                                      Var(
+                                        DesignatorIdent(
+                                         i
+                                        ) [DesignatorIdent]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [DesignatorArray]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [PrintStmt]
+                      ) [ForStmt]
+                    ) [Stms]
+                    DStm(
+                      ErrorDesStmt(
+                      ) [ErrorDesStmt]
+                    ) [DStm]
+                  ) [Stms]
+                  ReadDesignator(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                  ) [ReadDesignator]
+                ) [Stms]
+                ForStmt(
+                  NoDsList(
+                  ) [NoDsList]
+                  CondFacts(
+                    RelExpr(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      Less(
+                      ) [Less]
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorScope(
+                             sizes
+                             tableSize
+                            ) [DesignatorScope]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [RelExpr]
+                  ) [CondFacts]
+                  SingleDs(
+                    Inc(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                    ) [Inc]
+                  ) [SingleDs]
+                  Stmt(
+                    Stms(
+                      NoStms(
+                      ) [NoStms]
+                      DStm(
+                        ErrorDesStmt(
+                        ) [ErrorDesStmt]
+                      ) [DStm]
+                    ) [Stms]
+                  ) [Stmt]
+                ) [ForStmt]
+              ) [Stms]
+              DStm(
+                ActualParDes(
+                  DesignatorIdent(
+                   f
+                  ) [DesignatorIdent]
+                  Actuals(
+                    ActualParams(
+                      ActualParams(
+                        ActualParam(
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                DesignatorIdent(
+                                 c
+                                ) [DesignatorIdent]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [ActualParam]
+                        TermExpr(
+                          FactorTerm(
+                            Var(
+                              DesignatorIdent(
+                               x
+                              ) [DesignatorIdent]
+                            ) [Var]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [ActualParams]
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [ActualParams]
+                  ) [Actuals]
+                ) [ActualParDes]
+              ) [DStm]
+            ) [Stms]
+            ReadDesignator(
+              DesignatorIdent(
+               rows
+              ) [DesignatorIdent]
+            ) [ReadDesignator]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              DesignatorIdent(
+               x
+              ) [DesignatorIdent]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorIdent(
+                     rows
+                    ) [DesignatorIdent]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+        ForStmt(
+          NoDsList(
+          ) [NoDsList]
+          NoCondFact(
+          ) [NoCondFact]
+          NoDsList(
+          ) [NoDsList]
+          Stmt(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              IfStatement(
+                SingleCondition(
+                  SingleCondTerm(
+                    RelExpr(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorIdent(
+                             x
+                            ) [DesignatorIdent]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      Lequal(
+                      ) [Lequal]
+                      TermExpr(
+                        FactorTerm(
+                          NumFactor(
+                           0
+                          ) [NumFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [RelExpr]
+                  ) [SingleCondTerm]
+                ) [SingleCondition]
+                Break(
+                ) [Break]
+              ) [IfStatement]
+            ) [Stms]
+          ) [Stmt]
+        ) [ForStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:20:26,345 - ===================================
+INFO  11:20:26,524 - Var rows u delu za globalno na liniji 23
+INFO  11:20:26,525 - Var columns u delu za globalno na liniji 23
+INFO  11:20:26,527 - Var x u delu za lokalno na liniji 27
+INFO  11:20:26,527 - Var x u delu za lokalno na liniji 33
+INFO  11:20:26,527 - Var i u delu za lokalno na liniji 33
+INFO  11:20:26,528 - Var c u delu za lokalno na liniji 33
+ERROR 11:20:26,528 - Ime val ne postoji u tabeli simbola(nije deklarisano) na liniji 35
+ERROR 11:20:26,528 - Nije pronadjen tip Table u tabeli simbola na liniji 35

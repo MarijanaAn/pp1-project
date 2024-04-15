@@ -1,0 +1,45 @@
+INFO  22:34:29,986 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  22:34:30,190 - #2 program
+INFO  22:34:30,190 - #48 p
+INFO  22:34:30,191 - #5 namespace
+INFO  22:34:30,193 - #48 sizes
+INFO  22:34:30,193 - #3 {
+INFO  22:34:30,193 - #10 const
+INFO  22:34:30,196 - #48 int
+INFO  22:34:30,196 - #48 tableSize
+INFO  22:34:30,197 - #24 =
+INFO  22:34:30,197 - #47 10
+INFO  22:34:30,197 - #6 ;
+INFO  22:34:30,199 - #3 {
+INFO  22:34:30,202 - #4 }
+INFO  22:34:30,203 - #4 }
+INFO  22:34:30,204 - #48 Table
+INFO  22:34:30,206 - #48 val
+INFO  22:34:30,207 - #6 ;
+INFO  22:34:30,212 - #48 int
+INFO  22:34:30,215 - #48 rows
+INFO  22:34:30,216 - #7 ,
+INFO  22:34:30,216 - #48 columns
+INFO  22:34:30,216 - #6 ;
+INFO  22:34:30,219 - #3 {
+INFO  22:34:30,219 - #43 void
+INFO  22:34:30,219 - #48 f
+INFO  22:34:30,219 - #14 (
+INFO  22:34:30,219 - #48 char
+INFO  22:34:30,220 - #48 ch
+INFO  22:34:30,220 - #7 ,
+INFO  22:34:30,222 - #48 int
+INFO  22:34:30,222 - #48 a
+INFO  22:34:30,223 - #7 ,
+INFO  22:34:30,223 - #48 int
+INFO  22:34:30,224 - #48 arg
+INFO  22:34:30,224 - #15 )
+INFO  22:34:30,224 - #48 int
+INFO  22:34:30,226 - #48 x
+INFO  22:34:30,226 - #6 ;
+INFO  22:34:30,226 - #3 {
+INFO  22:34:30,227 - #48 x
+INFO  22:34:30,228 - #24 =
+ERROR 22:34:30,228 - 
+Sintaksna greska na liniji 13
+ERROR 22:34:30,229 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

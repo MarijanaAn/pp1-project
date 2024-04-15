@@ -1,0 +1,17 @@
+program p 
+namespace sizes{
+const int tableSize = 10;
+const bool l = false;
+{}
+}
+int x;
+bool sml;
+{
+void main() int x, i; char c; int arr[];{
+x= 3;
+x++;
+sml = true;
+if(sizes::l || sml && sml) x=2; else x = 4;
+print(x);
+}
+}

@@ -1,0 +1,165 @@
+INFO  22:00:11,866 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  22:00:12,029 - #2 program
+INFO  22:00:12,029 - #48 p
+INFO  22:00:12,029 - #5 namespace
+INFO  22:00:12,032 - #48 sizes
+INFO  22:00:12,032 - #3 {
+INFO  22:00:12,033 - #10 const
+INFO  22:00:12,037 - #48 int
+INFO  22:00:12,037 - #48 tableSize
+INFO  22:00:12,037 - #24 =
+INFO  22:00:12,038 - #47 10
+INFO  22:00:12,038 - #6 ;
+INFO  22:00:12,040 - #3 {
+INFO  22:00:12,042 - #4 }
+INFO  22:00:12,044 - #4 }
+INFO  22:00:12,044 - #48 int
+INFO  22:00:12,046 - #48 s
+INFO  22:00:12,046 - #6 ;
+INFO  22:00:12,048 - #48 bool
+INFO  22:00:12,050 - #48 m
+INFO  22:00:12,051 - #6 ;
+INFO  22:00:12,051 - #3 {
+INFO  22:00:12,053 - #43 void
+INFO  22:00:12,057 - #48 main
+INFO  22:00:12,057 - #14 (
+INFO  22:00:12,057 - #15 )
+INFO  22:00:12,060 - #48 int
+INFO  22:00:12,062 - #48 x
+INFO  22:00:12,062 - #7 ,
+INFO  22:00:12,063 - #48 i
+INFO  22:00:12,063 - #6 ;
+INFO  22:00:12,063 - #48 char
+INFO  22:00:12,064 - #48 c
+INFO  22:00:12,064 - #6 ;
+INFO  22:00:12,064 - #48 int
+INFO  22:00:12,065 - #48 arr
+INFO  22:00:12,065 - #8 [
+INFO  22:00:12,065 - #9 ]
+INFO  22:00:12,065 - #6 ;
+INFO  22:00:12,065 - #3 {
+INFO  22:00:12,067 - #4 }
+INFO  22:00:12,070 - #4 }
+INFO  22:00:12,101 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         s
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       bool
+      ) [Types]
+      VarDeclName(
+       m
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:00:12,105 - ===================================
+INFO  22:00:12,115 - CurType 1 se promenio! na liniji 3
+INFO  22:00:12,115 - CurType 1 se promenio! na liniji 6
+INFO  22:00:12,115 - Var s u delu za globalno na liniji 6
+ERROR 22:00:12,115 - Nije pronadjen tip bool u tabeli simbola
+INFO  22:00:12,115 - Var m u delu za globalno na liniji 7
+INFO  22:00:12,116 - CurType 1 se promenio! na liniji 9
+INFO  22:00:12,116 - Var x u delu za lokalno na liniji 9
+INFO  22:00:12,116 - Var i u delu za lokalno na liniji 9
+INFO  22:00:12,116 - CurType 2 se promenio! na liniji 9
+INFO  22:00:12,117 - Var c u delu za lokalno na liniji 9
+INFO  22:00:12,117 - CurType 1 se promenio! na liniji 9

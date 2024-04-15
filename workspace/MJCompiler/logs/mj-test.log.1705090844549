@@ -1,0 +1,107 @@
+INFO  21:20:15,137 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  21:20:15,295 - #2 program
+INFO  21:20:15,295 - #48 p
+INFO  21:20:15,296 - #48 char
+INFO  21:20:15,303 - #48 l
+INFO  21:20:15,304 - #6 ;
+INFO  21:20:15,306 - #3 {
+INFO  21:20:15,307 - #43 void
+INFO  21:20:15,309 - #48 main
+INFO  21:20:15,309 - #14 (
+INFO  21:20:15,310 - #15 )
+INFO  21:20:15,311 - #48 int
+INFO  21:20:15,313 - #48 x
+INFO  21:20:15,313 - #7 ,
+INFO  21:20:15,314 - #48 i
+INFO  21:20:15,314 - #6 ;
+INFO  21:20:15,314 - #48 char
+INFO  21:20:15,315 - #48 c
+INFO  21:20:15,316 - #6 ;
+INFO  21:20:15,316 - #48 int
+INFO  21:20:15,316 - #48 arr
+INFO  21:20:15,317 - #8 [
+INFO  21:20:15,318 - #9 ]
+INFO  21:20:15,319 - #6 ;
+INFO  21:20:15,319 - #3 {
+INFO  21:20:15,319 - #4 }
+INFO  21:20:15,321 - #4 }
+INFO  21:20:15,395 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       char
+      ) [Types]
+      VarDeclName(
+       l
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:20:15,398 - ===================================
+ERROR 21:20:15,407 - Promenljiva rs.etf.pp1.symboltable.concepts.Obj@6f539caf je vec definisana! na liniji 2
+ERROR 21:20:15,408 - Promenljiva null je vec definisana! na liniji 4

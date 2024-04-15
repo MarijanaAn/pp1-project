@@ -1,0 +1,18 @@
+INFO  22:28:43,060 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  22:28:43,267 - #2 program
+INFO  22:28:43,268 - #48 p
+INFO  22:28:43,268 - #5 namespace
+INFO  22:28:43,270 - #48 sizes
+INFO  22:28:43,270 - #3 {
+INFO  22:28:43,270 - #10 const
+INFO  22:28:43,272 - #48 int
+INFO  22:28:43,272 - #48 tableSize
+INFO  22:28:43,273 - #24 =
+INFO  22:28:43,273 - #47 10
+INFO  22:28:43,273 - #6 ;
+INFO  22:28:43,276 - #3 {
+INFO  22:28:43,278 - #4 }
+INFO  22:28:43,280 - #4 }
+ERROR 22:28:43,281 - 
+Sintaksna greska na liniji 6
+ERROR 22:28:43,281 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

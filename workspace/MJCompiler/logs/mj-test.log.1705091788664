@@ -1,0 +1,143 @@
+INFO  21:35:53,561 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  21:35:53,722 - #2 program
+INFO  21:35:53,722 - #48 p
+INFO  21:35:53,723 - #5 namespace
+INFO  21:35:53,726 - #48 sizes
+INFO  21:35:53,726 - #3 {
+INFO  21:35:53,727 - #10 const
+INFO  21:35:53,728 - #48 int
+INFO  21:35:53,729 - #48 tableSize
+INFO  21:35:53,729 - #24 =
+INFO  21:35:53,730 - #47 10
+INFO  21:35:53,730 - #6 ;
+INFO  21:35:53,733 - #3 {
+INFO  21:35:53,734 - #4 }
+INFO  21:35:53,735 - #4 }
+INFO  21:35:53,736 - #10 const
+INFO  21:35:53,738 - #48 int
+INFO  21:35:53,738 - #48 s
+INFO  21:35:53,738 - #24 =
+INFO  21:35:53,738 - #47 1
+INFO  21:35:53,739 - #6 ;
+INFO  21:35:53,739 - #3 {
+INFO  21:35:53,739 - #43 void
+INFO  21:35:53,750 - #48 main
+INFO  21:35:53,750 - #14 (
+INFO  21:35:53,751 - #15 )
+INFO  21:35:53,752 - #48 int
+INFO  21:35:53,754 - #48 x
+INFO  21:35:53,754 - #7 ,
+INFO  21:35:53,756 - #48 i
+INFO  21:35:53,757 - #6 ;
+INFO  21:35:53,757 - #48 char
+INFO  21:35:53,758 - #48 c
+INFO  21:35:53,758 - #6 ;
+INFO  21:35:53,758 - #48 int
+INFO  21:35:53,759 - #48 arr
+INFO  21:35:53,759 - #8 [
+INFO  21:35:53,759 - #9 ]
+INFO  21:35:53,759 - #6 ;
+INFO  21:35:53,759 - #3 {
+INFO  21:35:53,759 - #4 }
+INFO  21:35:53,761 - #4 }
+INFO  21:35:53,791 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclConst(
+    NoDecl(
+    ) [NoDecl]
+    ConstDeclarations(
+      Types(
+       int
+      ) [Types]
+      NumConst(
+       s
+       1
+      ) [NumConst]
+      NoConstDecl(
+      ) [NoConstDecl]
+    ) [ConstDeclarations]
+  ) [DeclConst]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:35:53,797 - ===================================

@@ -1,0 +1,67 @@
+INFO  17:47:04,790 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  17:47:05,130 - #2 program
+INFO  17:47:05,131 - #48 MJProgram
+INFO  17:47:05,131 - #48 int
+INFO  17:47:05,136 - #48 x
+INFO  17:47:05,137 - #6 ;
+INFO  17:47:05,142 - #3 {
+INFO  17:47:05,145 - #48 int
+INFO  17:47:05,146 - #48 main
+INFO  17:47:05,147 - #14 (
+INFO  17:47:05,147 - #15 )
+INFO  17:47:05,148 - #3 {
+INFO  17:47:05,151 - #23 print
+INFO  17:47:05,153 - #14 (
+INFO  17:47:05,153 - #47 1
+INFO  17:47:05,154 - #15 )
+INFO  17:47:05,155 - #6 ;
+INFO  17:47:05,155 - #4 }
+INFO  17:47:05,157 - #4 }
+INFO  17:47:05,161 - Program(
+ MJProgram
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDecl(
+      Types(
+       int
+      ) [Types]
+     x
+      NoBrackets(
+      ) [NoBrackets]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDecl]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    TypeMethod(
+      Types(
+       int
+      ) [Types]
+     main
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              NumConst(
+               1
+              ) [NumConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [TypeMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:47:05,187 - ===================================
+INFO  17:47:05,360 -  Print count calls = 1

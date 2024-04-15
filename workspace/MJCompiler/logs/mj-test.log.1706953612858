@@ -1,0 +1,370 @@
+INFO  10:45:37,565 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\forTest.mj
+INFO  10:45:37,743 - #2 program
+INFO  10:45:37,744 - #48 fortest
+INFO  10:45:37,745 - #48 int
+INFO  10:45:37,749 - #48 i
+INFO  10:45:37,750 - #7 ,
+INFO  10:45:37,753 - #48 j
+INFO  10:45:37,753 - #6 ;
+INFO  10:45:37,753 - #3 {
+INFO  10:45:37,754 - #43 void
+INFO  10:45:37,756 - #48 main
+INFO  10:45:37,757 - #14 (
+INFO  10:45:37,757 - #15 )
+INFO  10:45:37,758 - #3 {
+INFO  10:45:37,760 - #36 for
+INFO  10:45:37,762 - #14 (
+INFO  10:45:37,764 - #48 i
+INFO  10:45:37,764 - #24 =
+INFO  10:45:37,764 - #47 0
+INFO  10:45:37,768 - #6 ;
+INFO  10:45:37,770 - #48 i
+INFO  10:45:37,771 - #29 <
+INFO  10:45:37,772 - #47 3
+INFO  10:45:37,776 - #6 ;
+INFO  10:45:37,777 - #48 i
+INFO  10:45:37,778 - #21 ++
+INFO  10:45:37,779 - #15 )
+INFO  10:45:37,780 - #3 {
+INFO  10:45:37,780 - #23 print
+INFO  10:45:37,780 - #14 (
+INFO  10:45:37,780 - #48 i
+INFO  10:45:37,781 - #15 )
+INFO  10:45:37,781 - #6 ;
+INFO  10:45:37,782 - #41 if
+INFO  10:45:37,782 - #14 (
+INFO  10:45:37,783 - #48 i
+INFO  10:45:37,784 - #25 ==
+INFO  10:45:37,785 - #47 1
+INFO  10:45:37,787 - #15 )
+INFO  10:45:37,791 - #3 {
+INFO  10:45:37,791 - #40 break
+INFO  10:45:37,791 - #6 ;
+INFO  10:45:37,792 - #4 }
+INFO  10:45:37,793 - #36 for
+INFO  10:45:37,794 - #14 (
+INFO  10:45:37,796 - #48 j
+INFO  10:45:37,796 - #24 =
+INFO  10:45:37,797 - #47 0
+INFO  10:45:37,798 - #6 ;
+INFO  10:45:37,799 - #48 j
+INFO  10:45:37,799 - #29 <
+INFO  10:45:37,799 - #47 3
+INFO  10:45:37,822 - #6 ;
+INFO  10:45:37,824 - #48 j
+INFO  10:45:37,825 - #21 ++
+INFO  10:45:37,825 - #15 )
+INFO  10:45:37,826 - #3 {
+INFO  10:45:37,827 - #23 print
+INFO  10:45:37,827 - #14 (
+INFO  10:45:37,828 - #48 i
+INFO  10:45:37,828 - #15 )
+INFO  10:45:37,829 - #6 ;
+INFO  10:45:37,829 - #23 print
+INFO  10:45:37,838 - #14 (
+INFO  10:45:37,842 - #48 j
+INFO  10:45:37,843 - #15 )
+INFO  10:45:37,844 - #6 ;
+INFO  10:45:37,844 - #41 if
+INFO  10:45:37,845 - #14 (
+INFO  10:45:37,847 - #48 j
+INFO  10:45:37,848 - #25 ==
+INFO  10:45:37,848 - #47 1
+INFO  10:45:37,848 - #15 )
+INFO  10:45:37,849 - #40 break
+INFO  10:45:37,849 - #6 ;
+INFO  10:45:37,849 - #4 }
+INFO  10:45:37,849 - #4 }
+INFO  10:45:37,850 - #23 print
+INFO  10:45:37,850 - #14 (
+INFO  10:45:37,850 - #49 g
+INFO  10:45:37,850 - #15 )
+INFO  10:45:37,851 - #6 ;
+INFO  10:45:37,851 - #4 }
+INFO  10:45:37,853 - #4 }
+INFO  10:45:37,916 - Program(
+  ProgramName(
+   fortest
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       i
+      ) [VarDeclName]
+      VarDeclars(
+        NoVarDecls(
+        ) [NoVarDecls]
+        VarDeclName(
+         j
+        ) [VarDeclName]
+      ) [VarDeclars]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        Stms(
+          NoStms(
+          ) [NoStms]
+          ForStmt(
+            ForEnter(
+            ) [ForEnter]
+            SingleDs1(
+              AssignExpr(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     0
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AssignExpr]
+            ) [SingleDs1]
+            CondFacts(
+              RelExpr(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      DesignatorIdent(
+                       i
+                      ) [DesignatorIdent]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                Less(
+                ) [Less]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [RelExpr]
+            ) [CondFacts]
+            ContinueJump(
+            ) [ContinueJump]
+            SingleDs2(
+              Inc(
+                DesignatorIdent(
+                 i
+                ) [DesignatorIdent]
+              ) [Inc]
+            ) [SingleDs2]
+            Stmt(
+              Stms(
+                Stms(
+                  Stms(
+                    NoStms(
+                    ) [NoStms]
+                    PrintStmt(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorIdent(
+                             i
+                            ) [DesignatorIdent]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [PrintStmt]
+                  ) [Stms]
+                  IfStatement(
+                    ConditionComplete(
+                      SingleCondition(
+                        CondTermComplete(
+                          SingleCondTerm(
+                            RelExpr(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorIdent(
+                                     i
+                                    ) [DesignatorIdent]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                              Equal(
+                              ) [Equal]
+                              TermExpr(
+                                FactorTerm(
+                                  NumFactor(
+                                   1
+                                  ) [NumFactor]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [RelExpr]
+                          ) [SingleCondTerm]
+                        ) [CondTermComplete]
+                      ) [SingleCondition]
+                    ) [ConditionComplete]
+                    Stmt(
+                      Stms(
+                        NoStms(
+                        ) [NoStms]
+                        Break(
+                        ) [Break]
+                      ) [Stms]
+                    ) [Stmt]
+                  ) [IfStatement]
+                ) [Stms]
+                ForStmt(
+                  ForEnter(
+                  ) [ForEnter]
+                  SingleDs1(
+                    AssignExpr(
+                      DesignatorIdent(
+                       j
+                      ) [DesignatorIdent]
+                      Assign(
+                      ) [Assign]
+                      TermExpr(
+                        FactorTerm(
+                          NumFactor(
+                           0
+                          ) [NumFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [AssignExpr]
+                  ) [SingleDs1]
+                  CondFacts(
+                    RelExpr(
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorIdent(
+                             j
+                            ) [DesignatorIdent]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      Less(
+                      ) [Less]
+                      TermExpr(
+                        FactorTerm(
+                          NumFactor(
+                           3
+                          ) [NumFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [RelExpr]
+                  ) [CondFacts]
+                  ContinueJump(
+                  ) [ContinueJump]
+                  SingleDs2(
+                    Inc(
+                      DesignatorIdent(
+                       j
+                      ) [DesignatorIdent]
+                    ) [Inc]
+                  ) [SingleDs2]
+                  Stmt(
+                    Stms(
+                      Stms(
+                        Stms(
+                          NoStms(
+                          ) [NoStms]
+                          PrintStmt(
+                            TermExpr(
+                              FactorTerm(
+                                Var(
+                                  DesignatorIdent(
+                                   i
+                                  ) [DesignatorIdent]
+                                ) [Var]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [PrintStmt]
+                        ) [Stms]
+                        PrintStmt(
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                DesignatorIdent(
+                                 j
+                                ) [DesignatorIdent]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [PrintStmt]
+                      ) [Stms]
+                      IfStatement(
+                        ConditionComplete(
+                          SingleCondition(
+                            CondTermComplete(
+                              SingleCondTerm(
+                                RelExpr(
+                                  TermExpr(
+                                    FactorTerm(
+                                      Var(
+                                        DesignatorIdent(
+                                         j
+                                        ) [DesignatorIdent]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                  Equal(
+                                  ) [Equal]
+                                  TermExpr(
+                                    FactorTerm(
+                                      NumFactor(
+                                       1
+                                      ) [NumFactor]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [RelExpr]
+                              ) [SingleCondTerm]
+                            ) [CondTermComplete]
+                          ) [SingleCondition]
+                        ) [ConditionComplete]
+                        Break(
+                        ) [Break]
+                      ) [IfStatement]
+                    ) [Stms]
+                  ) [Stmt]
+                ) [ForStmt]
+              ) [Stms]
+            ) [Stmt]
+          ) [ForStmt]
+        ) [Stms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              CharFactor(
+               g
+              ) [CharFactor]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:45:37,921 - ===================================
+INFO  10:45:38,015 - 0 na liniji 5
+INFO  10:45:38,016 - 3 na liniji 5
+INFO  10:45:38,020 - 1 na liniji 7
+INFO  10:45:38,020 - 0 na liniji 8
+INFO  10:45:38,020 - 3 na liniji 8
+INFO  10:45:38,020 - 1 na liniji 11

@@ -1,0 +1,99 @@
+INFO  16:36:29,567 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  16:36:29,712 - #2 program
+INFO  16:36:29,712 - #48 test302
+INFO  16:36:29,712 - #48 int
+INFO  16:36:29,717 - #48 i
+INFO  16:36:29,718 - #6 ;
+INFO  16:36:29,720 - #3 {
+INFO  16:36:29,721 - #43 void
+INFO  16:36:29,722 - #48 main
+INFO  16:36:29,723 - #14 (
+INFO  16:36:29,723 - #15 )
+INFO  16:36:29,725 - #3 {
+INFO  16:36:29,726 - #41 if
+INFO  16:36:29,728 - #14 (
+INFO  16:36:29,728 - #47 1
+INFO  16:36:29,728 - #26 !=
+INFO  16:36:29,729 - #47 1
+INFO  16:36:29,732 - #15 )
+INFO  16:36:29,733 - #23 print
+INFO  16:36:29,734 - #14 (
+INFO  16:36:29,734 - #32 -
+INFO  16:36:29,734 - #47 6
+INFO  16:36:29,734 - #15 )
+INFO  16:36:29,743 - #6 ;
+INFO  16:36:29,743 - #4 }
+INFO  16:36:29,744 - #4 }
+INFO  16:36:29,776 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       i
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        IfStatement(
+          SingleCondition(
+            SingleCondTerm(
+              RelExpr(
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                Nequal(
+                ) [Nequal]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [RelExpr]
+            ) [SingleCondTerm]
+          ) [SingleCondition]
+          PrintStmt(
+            MinusTermExpr(
+              FactorTerm(
+                NumFactor(
+                 6
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [MinusTermExpr]
+          ) [PrintStmt]
+        ) [IfStatement]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:36:29,780 - ===================================
+INFO  16:36:29,808 - Parsiranje uspesno zavrseno!

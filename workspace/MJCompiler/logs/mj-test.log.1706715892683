@@ -1,0 +1,97 @@
+INFO  16:43:47,070 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  16:43:47,643 - #2 program
+INFO  16:43:47,644 - #48 test302
+INFO  16:43:47,645 - #48 int
+INFO  16:43:47,699 - #48 i
+INFO  16:43:47,700 - #6 ;
+INFO  16:43:47,703 - #3 {
+INFO  16:43:47,704 - #43 void
+INFO  16:43:47,707 - #48 main
+INFO  16:43:47,707 - #14 (
+INFO  16:43:47,708 - #15 )
+INFO  16:43:47,711 - #48 int
+INFO  16:43:47,759 - #48 p
+INFO  16:43:47,760 - #6 ;
+INFO  16:43:47,761 - #3 {
+INFO  16:43:47,763 - #48 p
+INFO  16:43:47,813 - #21 ++
+INFO  16:43:47,815 - #6 ;
+INFO  16:43:47,816 - #23 print
+INFO  16:43:47,818 - #14 (
+INFO  16:43:47,819 - #48 p
+INFO  16:43:47,820 - #15 )
+INFO  16:43:47,823 - #6 ;
+INFO  16:43:47,825 - #4 }
+INFO  16:43:47,826 - #4 }
+INFO  16:43:47,899 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       i
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclName(
+           p
+          ) [VarDeclName]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          NoStms(
+          ) [NoStms]
+          DStm(
+            Inc(
+              DesignatorIdent(
+               p
+              ) [DesignatorIdent]
+            ) [Inc]
+          ) [DStm]
+        ) [Stms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              Var(
+                DesignatorIdent(
+                 p
+                ) [DesignatorIdent]
+              ) [Var]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:43:47,900 - ===================================
+INFO  16:43:47,935 - Parsiranje uspesno zavrseno!

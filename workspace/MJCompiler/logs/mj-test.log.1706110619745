@@ -1,0 +1,283 @@
+INFO  16:36:07,640 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  16:36:07,801 - #2 program
+INFO  16:36:07,801 - #48 p
+INFO  16:36:07,802 - #5 namespace
+INFO  16:36:07,805 - #48 sizes
+INFO  16:36:07,805 - #3 {
+INFO  16:36:07,807 - #10 const
+INFO  16:36:07,808 - #48 int
+INFO  16:36:07,809 - #48 tableSize
+INFO  16:36:07,809 - #24 =
+INFO  16:36:07,810 - #47 10
+INFO  16:36:07,810 - #6 ;
+INFO  16:36:07,812 - #10 const
+INFO  16:36:07,813 - #48 bool
+INFO  16:36:07,813 - #48 l
+INFO  16:36:07,813 - #24 =
+INFO  16:36:07,814 - #50 0
+INFO  16:36:07,814 - #6 ;
+INFO  16:36:07,814 - #3 {
+INFO  16:36:07,815 - #4 }
+INFO  16:36:07,816 - #4 }
+INFO  16:36:07,816 - #48 int
+INFO  16:36:07,818 - #48 x
+INFO  16:36:07,823 - #6 ;
+INFO  16:36:07,825 - #3 {
+INFO  16:36:07,825 - #43 void
+INFO  16:36:07,826 - #48 main
+INFO  16:36:07,826 - #14 (
+INFO  16:36:07,827 - #15 )
+INFO  16:36:07,829 - #48 int
+INFO  16:36:07,830 - #48 x
+INFO  16:36:07,831 - #7 ,
+INFO  16:36:07,831 - #48 i
+INFO  16:36:07,831 - #6 ;
+INFO  16:36:07,831 - #48 char
+INFO  16:36:07,832 - #48 c
+INFO  16:36:07,832 - #6 ;
+INFO  16:36:07,832 - #48 int
+INFO  16:36:07,832 - #48 arr
+INFO  16:36:07,832 - #8 [
+INFO  16:36:07,833 - #9 ]
+INFO  16:36:07,833 - #6 ;
+INFO  16:36:07,833 - #3 {
+INFO  16:36:07,835 - #48 x
+INFO  16:36:07,836 - #24 =
+INFO  16:36:07,836 - #47 3
+INFO  16:36:07,839 - #6 ;
+INFO  16:36:07,840 - #48 x
+INFO  16:36:07,841 - #21 ++
+INFO  16:36:07,841 - #6 ;
+INFO  16:36:07,841 - #41 if
+INFO  16:36:07,842 - #14 (
+INFO  16:36:07,842 - #48 sizes
+INFO  16:36:07,842 - #17 ::
+INFO  16:36:07,842 - #48 l
+INFO  16:36:07,842 - #15 )
+INFO  16:36:07,844 - #48 x
+INFO  16:36:07,844 - #24 =
+INFO  16:36:07,844 - #47 2
+INFO  16:36:07,844 - #6 ;
+INFO  16:36:07,845 - #42 else
+INFO  16:36:07,845 - #48 x
+INFO  16:36:07,845 - #24 =
+INFO  16:36:07,846 - #47 4
+INFO  16:36:07,847 - #6 ;
+INFO  16:36:07,847 - #23 print
+INFO  16:36:07,847 - #14 (
+INFO  16:36:07,848 - #48 x
+INFO  16:36:07,848 - #15 )
+INFO  16:36:07,851 - #6 ;
+INFO  16:36:07,852 - #4 }
+INFO  16:36:07,852 - #4 }
+INFO  16:36:07,870 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      DeclConst(
+        DeclConst(
+          NoDecl(
+          ) [NoDecl]
+          ConstDeclarations(
+            Types(
+             int
+            ) [Types]
+            NumConst(
+             tableSize
+             10
+            ) [NumConst]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        ConstDeclarations(
+          Types(
+           bool
+          ) [Types]
+          BoolConst(
+           l
+           0
+          ) [BoolConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       x
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              DStm(
+                AssignExpr(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                  Assign(
+                  ) [Assign]
+                  TermExpr(
+                    FactorTerm(
+                      NumFactor(
+                       3
+                      ) [NumFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [AssignExpr]
+              ) [DStm]
+            ) [Stms]
+            DStm(
+              Inc(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [Inc]
+            ) [DStm]
+          ) [Stms]
+          IfElseStatement(
+            SingleCondition(
+              SingleCondTerm(
+                NoRelExpr(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorScope(
+                         sizes
+                         l
+                        ) [DesignatorScope]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [NoRelExpr]
+              ) [SingleCondTerm]
+            ) [SingleCondition]
+            DStm(
+              AssignExpr(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     2
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AssignExpr]
+            ) [DStm]
+            DStm(
+              AssignExpr(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     4
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AssignExpr]
+            ) [DStm]
+          ) [IfElseStatement]
+        ) [Stms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              Var(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [Var]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:36:07,870 - ===================================
+INFO  16:36:07,880 - U delu smo za dodelu vrednosti pormenljivoj na liniji 10
+INFO  16:36:07,881 - U delu smo za dodelu vrednosti pormenljivoj na liniji 12
+INFO  16:36:07,881 - U delu smo za dodelu vrednosti pormenljivoj na liniji 12
+INFO  16:36:07,896 - Parsiranje uspesno zavrseno!

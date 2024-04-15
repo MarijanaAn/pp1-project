@@ -1,0 +1,28 @@
+//Test 302
+
+program test302
+int i;
+bool ibool;
+//int niz2;
+//int niz[];
+//int a, curr;
+
+{
+
+	int inc(int s, int d){
+	return i=s+d;
+	}
+	void main()
+	int p;
+	{
+		
+		if(false) print(6);
+		else print(ord('a'));  
+		ibool = false;
+		if(ibool)
+			if(i == 5) print(3);
+			else print(-1); 			
+		if(i == 3) print(-i);
+		else print(inc(4,3););  
+	}
+}

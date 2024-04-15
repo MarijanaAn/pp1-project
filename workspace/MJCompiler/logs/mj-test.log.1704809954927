@@ -1,0 +1,593 @@
+INFO  22:34:04,129 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  22:34:04,712 - #2 program
+INFO  22:34:04,718 - #49 p
+INFO  22:34:04,719 - #49 Table
+INFO  22:34:04,762 - #49 val
+INFO  22:34:04,763 - #6 ;
+INFO  22:34:04,778 - #10 const
+INFO  22:34:04,779 - #49 int
+INFO  22:34:04,780 - #49 i
+INFO  22:34:04,780 - #24 =
+INFO  22:34:04,781 - #48 10
+INFO  22:34:04,781 - #7 ,
+INFO  22:34:04,848 - #7 ,
+ERROR 22:34:04,848 - 
+Sintaksna greska na liniji 13
+INFO  22:34:04,849 - #49 b
+INFO  22:34:04,850 - #24 =
+INFO  22:34:04,850 - #48 30
+ERROR 22:34:04,852 - Izvrsen oporavak od greske u konstrukciji iskaza dodele u liniji 13
+INFO  22:34:04,857 - #6 ;
+INFO  22:34:04,858 - #10 const
+INFO  22:34:04,870 - #49 bool
+INFO  22:34:04,870 - #49 a
+INFO  22:34:04,871 - #24 =
+INFO  22:34:04,871 - #47 true
+INFO  22:34:04,877 - #6 ;
+INFO  22:34:04,881 - #49 int
+INFO  22:34:04,882 - #49 rows
+INFO  22:34:04,882 - #7 ,
+INFO  22:34:04,882 - #49 columns
+INFO  22:34:04,882 - #6 ;
+INFO  22:34:04,896 - #3 {
+INFO  22:34:04,897 - #43 void
+INFO  22:34:04,902 - #49 f
+INFO  22:34:04,902 - #14 (
+INFO  22:34:04,902 - #49 char
+INFO  22:34:04,902 - #17 ::
+INFO  22:34:04,903 - #49 k
+INFO  22:34:04,903 - #49 ch
+INFO  22:34:04,904 - #7 ,
+INFO  22:34:04,908 - #49 int
+INFO  22:34:04,908 - #49 a
+INFO  22:34:04,908 - #7 ,
+INFO  22:34:04,909 - #49 int
+INFO  22:34:04,911 - #49 arg
+INFO  22:34:04,911 - #15 )
+INFO  22:34:04,930 - #49 int
+INFO  22:34:04,933 - #49 x
+INFO  22:34:04,933 - #6 ;
+INFO  22:34:04,934 - #3 {
+INFO  22:34:04,934 - #40 break
+INFO  22:34:04,937 - #6 ;
+INFO  22:34:04,937 - #39 continue
+INFO  22:34:04,944 - #6 ;
+INFO  22:34:04,946 - #38 return
+INFO  22:34:05,000 - #6 ;
+INFO  22:34:05,001 - #4 }
+INFO  22:34:05,011 - #43 void
+INFO  22:34:05,012 - #49 f
+INFO  22:34:05,016 - #14 (
+INFO  22:34:05,016 - #49 char
+INFO  22:34:05,016 - #49 ch
+INFO  22:34:05,018 - #7 ,
+INFO  22:34:05,019 - #49 int
+INFO  22:34:05,021 - #49 a
+INFO  22:34:05,022 - #7 ,
+INFO  22:34:05,028 - #49 int
+INFO  22:34:05,028 - #49 arg
+INFO  22:34:05,028 - #15 )
+INFO  22:34:05,029 - #49 int
+INFO  22:34:05,032 - #49 x
+INFO  22:34:05,032 - #6 ;
+INFO  22:34:05,037 - #3 {
+INFO  22:34:05,037 - #49 x
+INFO  22:34:05,037 - #24 =
+INFO  22:34:05,047 - #49 uffj
+INFO  22:34:05,052 - #49 arg
+ERROR 22:34:05,056 - 
+Sintaksna greska na liniji 31
+INFO  22:34:05,056 - #6 ;
+INFO  22:34:05,057 - #49 y
+INFO  22:34:05,057 - #24 =
+INFO  22:34:05,057 - #48 2
+ERROR 22:34:05,057 - Izvrsen oporavak od greske u konstrukciji iskaza dodele u liniji 4
+INFO  22:34:05,060 - #6 ;
+INFO  22:34:05,062 - #4 }
+INFO  22:34:05,069 - #43 void
+INFO  22:34:05,070 - #49 main
+INFO  22:34:05,071 - #14 (
+INFO  22:34:05,071 - #15 )
+INFO  22:34:05,078 - #49 int
+INFO  22:34:05,079 - #49 x
+INFO  22:34:05,079 - #7 ,
+INFO  22:34:05,079 - #49 i
+INFO  22:34:05,079 - #6 ;
+INFO  22:34:05,080 - #49 char
+INFO  22:34:05,080 - #49 c
+INFO  22:34:05,080 - #6 ;
+INFO  22:34:05,081 - #49 int
+INFO  22:34:05,081 - #49 arr
+INFO  22:34:05,081 - #8 [
+INFO  22:34:05,081 - #9 ]
+INFO  22:34:05,081 - #6 ;
+INFO  22:34:05,082 - #3 {
+INFO  22:34:05,082 - #49 val
+INFO  22:34:05,082 - #24 =
+INFO  22:34:05,082 - #18 new
+INFO  22:34:05,082 - #49 Table
+INFO  22:34:05,084 - #14 (
+INFO  22:34:05,086 - #15 )
+INFO  22:34:05,088 - #6 ;
+INFO  22:34:05,091 - #49 val
+INFO  22:34:05,091 - #16 .
+INFO  22:34:05,091 - #49 setfactor
+INFO  22:34:05,092 - #14 (
+INFO  22:34:05,093 - #48 2
+INFO  22:34:05,094 - #15 )
+INFO  22:34:05,095 - #6 ;
+INFO  22:34:05,098 - #49 arr
+INFO  22:34:05,098 - #24 =
+INFO  22:34:05,098 - #18 new
+INFO  22:34:05,099 - #49 int
+INFO  22:34:05,100 - #8 [
+INFO  22:34:05,101 - #48 3
+INFO  22:34:05,101 - #9 ]
+INFO  22:34:05,101 - #6 ;
+INFO  22:34:05,102 - #36 for
+INFO  22:34:05,102 - #14 (
+INFO  22:34:05,102 - #49 i
+INFO  22:34:05,102 - #24 =
+INFO  22:34:05,102 - #48 0
+INFO  22:34:05,107 - #6 ;
+INFO  22:34:05,108 - #49 i
+INFO  22:34:05,110 - #29 <
+INFO  22:34:05,111 - #48 3
+INFO  22:34:05,128 - #6 ;
+INFO  22:34:05,129 - #49 i
+INFO  22:34:05,130 - #21 ++
+INFO  22:34:05,131 - #15 )
+INFO  22:34:05,132 - #3 {
+INFO  22:34:05,132 - #49 arr
+INFO  22:34:05,133 - #8 [
+INFO  22:34:05,133 - #49 i
+INFO  22:34:05,133 - #9 ]
+INFO  22:34:05,133 - #24 =
+INFO  22:34:05,133 - #49 i
+INFO  22:34:05,134 - #6 ;
+INFO  22:34:05,134 - #4 }
+INFO  22:34:05,134 - #4 }
+INFO  22:34:05,135 - #4 }
+INFO  22:34:05,171 - Program(
+ p
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    DeclConst(
+      DeclConst(
+        DeclVar(
+          NoDecl(
+          ) [NoDecl]
+          VarDeclaration(
+            Types(
+             Table
+            ) [Types]
+           val
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [DeclVar]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+         i
+          Num(
+           10
+          ) [Num]
+          ConstDecls(
+            ErrorConstList(
+            ) [ErrorConstList]
+           b
+            Num(
+             30
+            ) [Num]
+          ) [ConstDecls]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      ConstDeclarations(
+        Types(
+         bool
+        ) [Types]
+       a
+        Bool(
+        ) [Bool]
+        NoConstDecl(
+        ) [NoConstDecl]
+      ) [ConstDeclarations]
+    ) [DeclConst]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+     rows
+      NoBrackets(
+      ) [NoBrackets]
+      VarDeclars(
+        NoVarDecls(
+        ) [NoVarDecls]
+       columns
+        NoBrackets(
+        ) [NoBrackets]
+      ) [VarDeclars]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDeclaration(
+        ) [NoMethodDeclaration]
+        VoidMethod(
+         f
+          FormParam(
+            MultFormPars(
+              MultFormPars(
+                SingleFormPars(
+                  FormalParamDecl(
+                    NamespaceType(
+                     char
+                     k
+                    ) [NamespaceType]
+                   ch
+                    NoBrackets(
+                    ) [NoBrackets]
+                  ) [FormalParamDecl]
+                ) [SingleFormPars]
+                FormalParamDecl(
+                  Types(
+                   int
+                  ) [Types]
+                 a
+                  NoBrackets(
+                  ) [NoBrackets]
+                ) [FormalParamDecl]
+              ) [MultFormPars]
+              FormalParamDecl(
+                Types(
+                 int
+                ) [Types]
+               arg
+                NoBrackets(
+                ) [NoBrackets]
+              ) [FormalParamDecl]
+            ) [MultFormPars]
+          ) [FormParam]
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+             x
+              NoBrackets(
+              ) [NoBrackets]
+              NoVarDecls(
+              ) [NoVarDecls]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          Stms(
+            Stms(
+              Stms(
+                NoStms(
+                ) [NoStms]
+                Break(
+                ) [Break]
+              ) [Stms]
+              Continue(
+              ) [Continue]
+            ) [Stms]
+            ReturnNoExpr(
+            ) [ReturnNoExpr]
+          ) [Stms]
+        ) [VoidMethod]
+      ) [MethodDeclarations]
+      VoidMethod(
+       f
+        FormParam(
+          MultFormPars(
+            MultFormPars(
+              SingleFormPars(
+                FormalParamDecl(
+                  Types(
+                   char
+                  ) [Types]
+                 ch
+                  NoBrackets(
+                  ) [NoBrackets]
+                ) [FormalParamDecl]
+              ) [SingleFormPars]
+              FormalParamDecl(
+                Types(
+                 int
+                ) [Types]
+               a
+                NoBrackets(
+                ) [NoBrackets]
+              ) [FormalParamDecl]
+            ) [MultFormPars]
+            FormalParamDecl(
+              Types(
+               int
+              ) [Types]
+             arg
+              NoBrackets(
+              ) [NoBrackets]
+            ) [FormalParamDecl]
+          ) [MultFormPars]
+        ) [FormParam]
+        VarDelcarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Types(
+             int
+            ) [Types]
+           x
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        Stms(
+          Stms(
+            NoStms(
+            ) [NoStms]
+            DStm(
+              ErrorDesStmt(
+              ) [ErrorDesStmt]
+            ) [DStm]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              Desgn(
+               y
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [Desgn]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  NumConst(
+                   2
+                  ) [NumConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+      ) [VoidMethod]
+    ) [MethodDeclarations]
+    VoidMethod(
+     main
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+             x
+              NoBrackets(
+              ) [NoBrackets]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+               i
+                NoBrackets(
+                ) [NoBrackets]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+           c
+            NoBrackets(
+            ) [NoBrackets]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+         arr
+          Brackets(
+          ) [Brackets]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              DStm(
+                AssignExpr(
+                  Desgn(
+                   val
+                    NoIdentExpr(
+                    ) [NoIdentExpr]
+                  ) [Desgn]
+                  Assign(
+                  ) [Assign]
+                  TermExpr(
+                    FactorTerm(
+                      NewTypeActual(
+                        Types(
+                         Table
+                        ) [Types]
+                        NoActuals(
+                        ) [NoActuals]
+                      ) [NewTypeActual]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [AssignExpr]
+              ) [DStm]
+            ) [Stms]
+            DStm(
+              ActualParDes(
+                Desgn(
+                 val
+                  PeriodIdent(
+                    NoIdentExpr(
+                    ) [NoIdentExpr]
+                   setfactor
+                  ) [PeriodIdent]
+                ) [Desgn]
+                Actuals(
+                  ActualParam(
+                    TermExpr(
+                      FactorTerm(
+                        NumConst(
+                         2
+                        ) [NumConst]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [ActualParam]
+                ) [Actuals]
+              ) [ActualParDes]
+            ) [DStm]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              Desgn(
+               arr
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [Desgn]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  NewTypeExpr(
+                    Types(
+                     int
+                    ) [Types]
+                    TermExpr(
+                      FactorTerm(
+                        NumConst(
+                         3
+                        ) [NumConst]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [NewTypeExpr]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+        ForStmt(
+          SingleDs(
+            AssignExpr(
+              Desgn(
+               i
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [Desgn]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  NumConst(
+                   0
+                  ) [NumConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [SingleDs]
+          CondFacts(
+            RelExpr(
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    Desgn(
+                     i
+                      NoIdentExpr(
+                      ) [NoIdentExpr]
+                    ) [Desgn]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+              Less(
+              ) [Less]
+              TermExpr(
+                FactorTerm(
+                  NumConst(
+                   3
+                  ) [NumConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [RelExpr]
+          ) [CondFacts]
+          SingleDs(
+            Inc(
+              Desgn(
+               i
+                NoIdentExpr(
+                ) [NoIdentExpr]
+              ) [Desgn]
+            ) [Inc]
+          ) [SingleDs]
+          Stmt(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              DStm(
+                AssignExpr(
+                  Desgn(
+                   arr
+                    ExFactor(
+                      NoIdentExpr(
+                      ) [NoIdentExpr]
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            Desgn(
+                             i
+                              NoIdentExpr(
+                              ) [NoIdentExpr]
+                            ) [Desgn]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [ExFactor]
+                  ) [Desgn]
+                  Assign(
+                  ) [Assign]
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        Desgn(
+                         i
+                          NoIdentExpr(
+                          ) [NoIdentExpr]
+                        ) [Desgn]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [AssignExpr]
+              ) [DStm]
+            ) [Stms]
+          ) [Stmt]
+        ) [ForStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:34:05,178 - ===================================
+INFO  22:34:05,197 -  Print count calls = 0
+INFO  22:34:05,198 -  Var decl count = 0

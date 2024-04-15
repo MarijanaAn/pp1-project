@@ -1,0 +1,90 @@
+INFO  00:39:32,138 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  00:39:32,329 - #2 program
+INFO  00:39:32,330 - #48 p
+INFO  00:39:32,330 - #5 namespace
+INFO  00:39:32,334 - #48 sizes
+INFO  00:39:32,335 - #3 {
+INFO  00:39:32,335 - #10 const
+INFO  00:39:32,337 - #48 int
+INFO  00:39:32,337 - #48 tableSize
+INFO  00:39:32,338 - #24 =
+INFO  00:39:32,338 - #47 10
+INFO  00:39:32,338 - #6 ;
+INFO  00:39:32,342 - #3 {
+INFO  00:39:32,343 - #4 }
+INFO  00:39:32,346 - #4 }
+INFO  00:39:32,347 - #48 int
+INFO  00:39:32,349 - #48 s
+INFO  00:39:32,349 - #6 ;
+INFO  00:39:32,351 - #3 {
+INFO  00:39:32,352 - #43 void
+INFO  00:39:32,353 - #48 main
+INFO  00:39:32,355 - #14 (
+INFO  00:39:32,358 - #15 )
+INFO  00:39:32,415 - #3 {
+INFO  00:39:32,417 - #4 }
+INFO  00:39:32,419 - #4 }
+INFO  00:39:32,450 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       s
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:39:32,450 - ===================================
+INFO  00:39:32,459 - CurType 1 se promenio! na liniji 3
+INFO  00:39:32,459 - CurType 1 se promenio! na liniji 6
+INFO  00:39:32,459 - Var s u delu za globalno na liniji 6
+INFO  00:39:32,460 - Gotova metod  na liniji 8
+ERROR 00:39:32,461 - Program mora imati void main() metodu na liniji 1

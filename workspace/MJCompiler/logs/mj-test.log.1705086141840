@@ -1,0 +1,28 @@
+INFO  20:01:43,577 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  20:01:43,735 - #2 program
+INFO  20:01:43,736 - #48 p
+INFO  20:01:43,736 - #48 char
+INFO  20:01:43,740 - #48 l
+INFO  20:01:43,741 - #6 ;
+INFO  20:01:43,743 - #3 {
+INFO  20:01:43,744 - #43 void
+INFO  20:01:43,746 - #48 main
+INFO  20:01:43,747 - #14 (
+INFO  20:01:43,747 - #15 )
+INFO  20:01:43,749 - #48 int
+INFO  20:01:43,751 - #48 x
+INFO  20:01:43,752 - #7 ,
+INFO  20:01:43,752 - #48 i
+INFO  20:01:43,752 - #6 ;
+INFO  20:01:43,752 - #48 char
+INFO  20:01:43,753 - #48 c
+INFO  20:01:43,753 - #6 ;
+INFO  20:01:43,754 - #48 int
+INFO  20:01:43,755 - #48 arr
+INFO  20:01:43,755 - #8 [
+INFO  20:01:43,755 - #9 ]
+INFO  20:01:43,759 - #6 ;
+INFO  20:01:43,759 - #4 }
+ERROR 20:01:43,759 - 
+Sintaksna greska na liniji 5
+ERROR 20:01:43,761 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

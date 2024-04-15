@@ -1,0 +1,235 @@
+INFO  11:41:36,332 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\dijana.mj
+INFO  11:41:36,906 - #2 program
+INFO  11:41:36,907 - #48 codegen1
+INFO  11:41:36,907 - #48 int
+INFO  11:41:36,963 - #48 x
+INFO  11:41:36,964 - #6 ;
+INFO  11:41:36,971 - #48 int
+INFO  11:41:36,973 - #48 y
+INFO  11:41:36,973 - #6 ;
+INFO  11:41:36,974 - #3 {
+INFO  11:41:36,974 - #48 int
+INFO  11:41:36,977 - #48 meth1
+INFO  11:41:36,977 - #14 (
+INFO  11:41:36,978 - #15 )
+INFO  11:41:36,981 - #48 int
+INFO  11:41:36,986 - #48 c
+INFO  11:41:36,987 - #6 ;
+INFO  11:41:36,987 - #3 {
+INFO  11:41:36,988 - #23 print
+INFO  11:41:36,991 - #14 (
+INFO  11:41:36,991 - #47 3
+INFO  11:41:36,992 - #15 )
+INFO  11:41:36,994 - #6 ;
+INFO  11:41:36,994 - #48 c
+INFO  11:41:36,995 - #24 =
+INFO  11:41:36,996 - #47 2
+INFO  11:41:37,049 - #6 ;
+INFO  11:41:37,051 - #38 return
+INFO  11:41:37,053 - #48 c
+INFO  11:41:37,054 - #31 +
+INFO  11:41:37,055 - #47 2
+INFO  11:41:37,060 - #6 ;
+INFO  11:41:37,061 - #4 }
+INFO  11:41:37,063 - #43 void
+INFO  11:41:37,065 - #48 main
+INFO  11:41:37,065 - #14 (
+INFO  11:41:37,065 - #15 )
+INFO  11:41:37,066 - #3 {
+INFO  11:41:37,066 - #23 print
+INFO  11:41:37,066 - #14 (
+INFO  11:41:37,066 - #47 1
+INFO  11:41:37,066 - #15 )
+INFO  11:41:37,066 - #6 ;
+INFO  11:41:37,067 - #23 print
+INFO  11:41:37,067 - #14 (
+INFO  11:41:37,069 - #47 2
+INFO  11:41:37,070 - #15 )
+INFO  11:41:37,070 - #6 ;
+INFO  11:41:37,070 - #23 print
+INFO  11:41:37,071 - #14 (
+INFO  11:41:37,076 - #47 3
+INFO  11:41:37,077 - #15 )
+INFO  11:41:37,089 - #6 ;
+INFO  11:41:37,089 - #48 meth1
+INFO  11:41:37,089 - #14 (
+INFO  11:41:37,089 - #15 )
+INFO  11:41:37,094 - #6 ;
+INFO  11:41:37,095 - #4 }
+INFO  11:41:37,095 - #4 }
+INFO  11:41:37,148 - Program(
+  ProgramName(
+   codegen1
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         x
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       y
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      TypeMethod(
+        Types(
+         int
+        ) [Types]
+        MethName(
+         meth1
+        ) [MethName]
+        NoFormParams(
+        ) [NoFormParams]
+        VarDelcarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Types(
+             int
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        Stms(
+          Stms(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [Stms]
+            DStm(
+              AssignExpr(
+                DesignatorIdent(
+                 c
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     2
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [AssignExpr]
+            ) [DStm]
+          ) [Stms]
+          ReturnExpr(
+            AddopTermExpr(
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorIdent(
+                     c
+                    ) [DesignatorIdent]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+              Plus(
+              ) [Plus]
+              FactorTerm(
+                NumFactor(
+                 2
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [AddopTermExpr]
+          ) [ReturnExpr]
+        ) [Stms]
+      ) [TypeMethod]
+    ) [MethodDeclarations]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoVarDeclarations(
+      ) [NoVarDeclarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              NoStms(
+              ) [NoStms]
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     1
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [Stms]
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  NumFactor(
+                   2
+                  ) [NumFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [PrintStmt]
+          ) [Stms]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 3
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [Stms]
+        DStm(
+          ActualParDes(
+            DesignatorIdent(
+             meth1
+            ) [DesignatorIdent]
+            NoActuals(
+            ) [NoActuals]
+          ) [ActualParDes]
+        ) [DStm]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:41:37,150 - ===================================
+INFO  11:41:37,204 - Var x u delu za globalno na liniji 3
+INFO  11:41:37,205 - Var y u delu za globalno na liniji 4
+INFO  11:41:37,205 - Var c u delu za lokalno na liniji 8
+INFO  11:41:37,248 - Parsiranje uspesno zavrseno!

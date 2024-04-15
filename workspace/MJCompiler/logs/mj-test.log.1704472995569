@@ -1,0 +1,14 @@
+INFO  17:42:48,620 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  17:42:48,808 - #2 program
+INFO  17:42:48,808 - #48 MJProgram
+INFO  17:42:48,809 - #48 int
+INFO  17:42:48,812 - #48 x
+INFO  17:42:48,813 - #7 ,
+INFO  17:42:48,821 - #48 y
+INFO  17:42:48,821 - #6 ;
+INFO  17:42:48,822 - #48 bool
+INFO  17:42:48,825 - #48 z
+INFO  17:42:48,826 - #24 =
+ERROR 17:42:48,826 - 
+Sintaksna greska na liniji 3
+ERROR 17:42:48,827 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

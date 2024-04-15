@@ -1,0 +1,27 @@
+INFO  12:18:50,383 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  12:18:52,029 - #2 program
+INFO  12:18:52,029 - #48 p
+INFO  12:18:52,030 - #5 namespace
+INFO  12:18:52,031 - #48 sizes
+INFO  12:18:52,032 - #3 {
+INFO  12:18:52,032 - #10 const
+INFO  12:18:52,036 - #48 int
+INFO  12:18:52,037 - #48 tableSize
+INFO  12:18:52,037 - #24 =
+INFO  12:18:52,038 - #47 10
+INFO  12:18:52,038 - #6 ;
+INFO  12:18:52,042 - #3 {
+INFO  12:18:52,045 - #4 }
+INFO  12:18:52,048 - #4 }
+INFO  12:18:52,049 - #48 Table
+INFO  12:18:52,052 - #48 val
+INFO  12:18:52,053 - #6 ;
+INFO  12:18:52,060 - #48 int
+INFO  12:18:52,065 - #48 rows
+INFO  12:18:52,093 - #7 ,
+INFO  12:18:52,093 - #48 columns
+INFO  12:18:52,093 - #6 ;
+INFO  12:18:52,095 - #13 static
+ERROR 12:18:52,096 - 
+Sintaksna greska na liniji 9
+ERROR 12:18:52,096 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 9

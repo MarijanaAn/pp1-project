@@ -1,0 +1,105 @@
+INFO  20:19:57,330 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  20:19:57,499 - #2 program
+INFO  20:19:57,499 - #48 p
+INFO  20:19:57,499 - #48 char
+INFO  20:19:57,506 - #48 l
+INFO  20:19:57,507 - #6 ;
+INFO  20:19:57,509 - #3 {
+INFO  20:19:57,510 - #43 void
+INFO  20:19:57,512 - #48 main
+INFO  20:19:57,512 - #14 (
+INFO  20:19:57,513 - #15 )
+INFO  20:19:57,514 - #48 int
+INFO  20:19:57,516 - #48 x
+INFO  20:19:57,516 - #7 ,
+INFO  20:19:57,516 - #48 i
+INFO  20:19:57,517 - #6 ;
+INFO  20:19:57,518 - #48 char
+INFO  20:19:57,518 - #48 c
+INFO  20:19:57,518 - #6 ;
+INFO  20:19:57,519 - #48 int
+INFO  20:19:57,519 - #48 arr
+INFO  20:19:57,520 - #8 [
+INFO  20:19:57,520 - #9 ]
+INFO  20:19:57,522 - #6 ;
+INFO  20:19:57,522 - #3 {
+INFO  20:19:57,522 - #4 }
+INFO  20:19:57,524 - #4 }
+INFO  20:19:57,594 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       char
+      ) [Types]
+      VarDeclName(
+       l
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:19:57,596 - ===================================

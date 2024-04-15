@@ -1,0 +1,41 @@
+INFO  16:08:01,846 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\program.mj
+INFO  16:08:02,118 - #2 program
+INFO  16:08:02,118 - #49 p
+INFO  16:08:02,119 - #5 namespace
+INFO  16:08:02,121 - #49 sizes
+INFO  16:08:02,121 - #3 {
+INFO  16:08:02,122 - #10 const
+INFO  16:08:02,124 - #49 int
+INFO  16:08:02,124 - #49 tableSize
+INFO  16:08:02,125 - #24 =
+INFO  16:08:02,126 - #48 10
+INFO  16:08:02,126 - #6 ;
+INFO  16:08:02,129 - #3 {
+INFO  16:08:02,132 - #4 }
+INFO  16:08:02,134 - #4 }
+INFO  16:08:02,135 - #11 class
+INFO  16:08:02,139 - #49 Table
+INFO  16:08:02,139 - #3 {
+INFO  16:08:02,141 - #49 int
+INFO  16:08:02,183 - #49 pos
+INFO  16:08:02,186 - #8 [
+INFO  16:08:02,187 - #9 ]
+INFO  16:08:02,187 - #7 ,
+INFO  16:08:02,194 - #49 neg
+INFO  16:08:02,194 - #8 [
+INFO  16:08:02,194 - #9 ]
+INFO  16:08:02,195 - #7 ,
+INFO  16:08:02,199 - #49 factor
+INFO  16:08:02,199 - #6 ;
+INFO  16:08:02,203 - #3 {
+INFO  16:08:02,210 - #43 void
+INFO  16:08:02,213 - #49 setfactor
+INFO  16:08:02,213 - #14 (
+INFO  16:08:02,213 - #49 int
+INFO  16:08:02,213 - #49 factor
+INFO  16:08:02,214 - #15 )
+INFO  16:08:02,266 - #3 {
+INFO  16:08:02,266 - #46 this
+ERROR 16:08:02,267 - 
+Sintaksna greska na liniji 12
+ERROR 16:08:02,267 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

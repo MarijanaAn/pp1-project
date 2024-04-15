@@ -1,0 +1,152 @@
+INFO  19:04:34,757 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\btest.mj
+INFO  19:04:34,929 - #2 program
+INFO  19:04:34,930 - #48 test302
+INFO  19:04:34,930 - #48 int
+INFO  19:04:34,937 - #48 i
+INFO  19:04:34,937 - #6 ;
+INFO  19:04:34,939 - #3 {
+INFO  19:04:34,940 - #43 void
+INFO  19:04:34,942 - #48 main
+INFO  19:04:34,943 - #14 (
+INFO  19:04:34,943 - #15 )
+INFO  19:04:34,945 - #48 int
+INFO  19:04:34,947 - #48 p
+INFO  19:04:34,947 - #6 ;
+INFO  19:04:34,947 - #3 {
+INFO  19:04:34,948 - #41 if
+INFO  19:04:34,949 - #14 (
+INFO  19:04:34,949 - #50 1
+INFO  19:04:34,950 - #19 &&
+INFO  19:04:34,952 - #50 0
+INFO  19:04:34,953 - #20 ||
+INFO  19:04:34,956 - #50 0
+INFO  19:04:34,957 - #15 )
+INFO  19:04:34,967 - #23 print
+INFO  19:04:34,967 - #14 (
+INFO  19:04:34,967 - #47 6
+INFO  19:04:34,968 - #15 )
+INFO  19:04:34,969 - #6 ;
+INFO  19:04:34,969 - #42 else
+INFO  19:04:34,969 - #23 print
+INFO  19:04:34,972 - #14 (
+INFO  19:04:34,973 - #47 0
+INFO  19:04:34,973 - #15 )
+INFO  19:04:34,973 - #6 ;
+INFO  19:04:34,973 - #4 }
+INFO  19:04:34,975 - #4 }
+INFO  19:04:34,998 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       i
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        NoVarDeclarations(
+        ) [NoVarDeclarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclName(
+           p
+          ) [VarDeclName]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        NoStms(
+        ) [NoStms]
+        IfElseStatement(
+          ConditionComplete(
+            MultCondition(
+              SingleCondition(
+                CondTermComplete(
+                  MultCondTerm(
+                    SingleCondTerm(
+                      NoRelExpr(
+                        TermExpr(
+                          FactorTerm(
+                            BoolFactor(
+                             1
+                            ) [BoolFactor]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [NoRelExpr]
+                    ) [SingleCondTerm]
+                    NoRelExpr(
+                      TermExpr(
+                        FactorTerm(
+                          BoolFactor(
+                           0
+                          ) [BoolFactor]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [NoRelExpr]
+                  ) [MultCondTerm]
+                ) [CondTermComplete]
+              ) [SingleCondition]
+              CondTermComplete(
+                SingleCondTerm(
+                  NoRelExpr(
+                    TermExpr(
+                      FactorTerm(
+                        BoolFactor(
+                         0
+                        ) [BoolFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [NoRelExpr]
+                ) [SingleCondTerm]
+              ) [CondTermComplete]
+            ) [MultCondition]
+          ) [ConditionComplete]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 6
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+          Else(
+          ) [Else]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 0
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [IfElseStatement]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:04:34,999 - ===================================

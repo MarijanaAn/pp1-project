@@ -1,0 +1,245 @@
+INFO  11:53:12,282 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  11:53:12,502 - #2 program
+INFO  11:53:12,503 - #48 p
+INFO  11:53:12,503 - #5 namespace
+INFO  11:53:12,507 - #48 sizes
+INFO  11:53:12,508 - #3 {
+INFO  11:53:12,511 - #10 const
+INFO  11:53:12,515 - #48 int
+INFO  11:53:12,515 - #48 tableSize
+INFO  11:53:12,516 - #24 =
+INFO  11:53:12,516 - #47 10
+INFO  11:53:12,516 - #6 ;
+INFO  11:53:12,518 - #10 const
+INFO  11:53:12,519 - #48 bool
+INFO  11:53:12,519 - #48 l
+INFO  11:53:12,519 - #24 =
+INFO  11:53:12,520 - #50 0
+INFO  11:53:12,520 - #6 ;
+INFO  11:53:12,520 - #3 {
+INFO  11:53:12,521 - #4 }
+INFO  11:53:12,523 - #4 }
+INFO  11:53:12,523 - #48 int
+INFO  11:53:12,525 - #48 x
+INFO  11:53:12,536 - #6 ;
+INFO  11:53:12,539 - #3 {
+INFO  11:53:12,540 - #43 void
+INFO  11:53:12,540 - #48 main
+INFO  11:53:12,541 - #14 (
+INFO  11:53:12,542 - #15 )
+INFO  11:53:12,545 - #48 int
+INFO  11:53:12,549 - #48 x
+INFO  11:53:12,550 - #7 ,
+INFO  11:53:12,550 - #48 i
+INFO  11:53:12,550 - #6 ;
+INFO  11:53:12,550 - #48 char
+INFO  11:53:12,551 - #48 c
+INFO  11:53:12,551 - #6 ;
+INFO  11:53:12,551 - #48 int
+INFO  11:53:12,551 - #48 arr
+INFO  11:53:12,552 - #8 [
+INFO  11:53:12,552 - #9 ]
+INFO  11:53:12,552 - #6 ;
+INFO  11:53:12,552 - #3 {
+INFO  11:53:12,557 - #48 x
+INFO  11:53:12,566 - #21 ++
+INFO  11:53:12,567 - #6 ;
+INFO  11:53:12,568 - #48 arr
+INFO  11:53:12,569 - #8 [
+INFO  11:53:12,571 - #47 3
+INFO  11:53:12,571 - #9 ]
+INFO  11:53:12,572 - #24 =
+INFO  11:53:12,573 - #47 7
+INFO  11:53:12,589 - #6 ;
+INFO  11:53:12,590 - #23 print
+INFO  11:53:12,590 - #14 (
+INFO  11:53:12,590 - #48 arr
+INFO  11:53:12,591 - #8 [
+INFO  11:53:12,591 - #47 3
+INFO  11:53:12,592 - #9 ]
+INFO  11:53:12,613 - #15 )
+INFO  11:53:12,614 - #6 ;
+INFO  11:53:12,614 - #4 }
+INFO  11:53:12,616 - #4 }
+INFO  11:53:12,655 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      DeclConst(
+        DeclConst(
+          NoDecl(
+          ) [NoDecl]
+          ConstDeclarations(
+            Types(
+             int
+            ) [Types]
+            NumConst(
+             tableSize
+             10
+            ) [NumConst]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        ConstDeclarations(
+          Types(
+           bool
+          ) [Types]
+          BoolConst(
+           l
+           0
+          ) [BoolConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       x
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            NoStms(
+            ) [NoStms]
+            DStm(
+              Inc(
+                DesignatorIdent(
+                 x
+                ) [DesignatorIdent]
+              ) [Inc]
+            ) [DStm]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              DesignatorArray(
+                DesignatorName(
+                 arr
+                ) [DesignatorName]
+                TermExpr(
+                  FactorTerm(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [DesignatorArray]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  NumFactor(
+                   7
+                  ) [NumFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              Var(
+                DesignatorArray(
+                  DesignatorName(
+                   arr
+                  ) [DesignatorName]
+                  TermExpr(
+                    FactorTerm(
+                      NumFactor(
+                       3
+                      ) [NumFactor]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [DesignatorArray]
+              ) [Var]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:53:12,656 - ===================================
+INFO  11:53:12,666 - 5 na liniji 4
+INFO  11:53:12,666 - 5 na liniji 4
+INFO  11:53:12,666 - Var x u delu za globalno na liniji 7
+INFO  11:53:12,668 - Var x u delu za lokalno na liniji 9
+INFO  11:53:12,669 - Var i u delu za lokalno na liniji 9
+INFO  11:53:12,669 - Var c u delu za lokalno na liniji 9
+INFO  11:53:12,669 - ~~USING ELEM OF ARR arr[$] na liniji 11
+INFO  11:53:12,669 - ~~USING ELEM OF ARR arr[$] na liniji 12
+INFO  11:53:12,692 - Parsiranje uspesno zavrseno!

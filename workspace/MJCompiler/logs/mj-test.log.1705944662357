@@ -1,0 +1,429 @@
+INFO  18:29:13,213 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\test301.mj
+INFO  18:29:13,381 - #2 program
+INFO  18:29:13,381 - #48 test301
+INFO  18:29:13,382 - #5 namespace
+INFO  18:29:13,385 - #48 Konstante
+INFO  18:29:13,385 - #3 {
+INFO  18:29:13,387 - #10 const
+INFO  18:29:13,389 - #48 int
+INFO  18:29:13,389 - #48 nula
+INFO  18:29:13,389 - #24 =
+INFO  18:29:13,390 - #47 0
+INFO  18:29:13,390 - #6 ;
+INFO  18:29:13,392 - #10 const
+INFO  18:29:13,393 - #48 int
+INFO  18:29:13,393 - #48 jedan
+INFO  18:29:13,393 - #24 =
+INFO  18:29:13,393 - #47 1
+INFO  18:29:13,394 - #6 ;
+INFO  18:29:13,394 - #10 const
+INFO  18:29:13,395 - #48 int
+INFO  18:29:13,396 - #48 pet
+INFO  18:29:13,397 - #24 =
+INFO  18:29:13,398 - #47 5
+INFO  18:29:13,398 - #6 ;
+INFO  18:29:13,398 - #3 {
+INFO  18:29:13,400 - #4 }
+INFO  18:29:13,401 - #4 }
+INFO  18:29:13,402 - #5 namespace
+INFO  18:29:13,404 - #48 Nizovi
+INFO  18:29:13,404 - #3 {
+INFO  18:29:13,405 - #48 int
+INFO  18:29:13,405 - #48 niz
+INFO  18:29:13,405 - #8 [
+INFO  18:29:13,405 - #9 ]
+INFO  18:29:13,405 - #6 ;
+INFO  18:29:13,407 - #48 char
+INFO  18:29:13,408 - #48 nizch
+INFO  18:29:13,408 - #8 [
+INFO  18:29:13,408 - #9 ]
+INFO  18:29:13,408 - #6 ;
+INFO  18:29:13,409 - #3 {
+INFO  18:29:13,409 - #4 }
+INFO  18:29:13,410 - #4 }
+INFO  18:29:13,412 - #48 int
+INFO  18:29:13,413 - #48 a
+INFO  18:29:13,413 - #6 ;
+INFO  18:29:13,413 - #3 {
+INFO  18:29:13,413 - #43 void
+INFO  18:29:13,413 - #48 main
+INFO  18:29:13,413 - #14 (
+INFO  18:29:13,414 - #15 )
+INFO  18:29:13,416 - #48 int
+INFO  18:29:13,418 - #48 bodovi
+INFO  18:29:13,418 - #6 ;
+INFO  18:29:13,418 - #48 bool
+INFO  18:29:13,418 - #48 bt
+INFO  18:29:13,419 - #6 ;
+INFO  18:29:13,419 - #3 {
+INFO  18:29:13,419 - #48 bodovi
+INFO  18:29:13,421 - #24 =
+INFO  18:29:13,421 - #47 0
+INFO  18:29:13,424 - #6 ;
+INFO  18:29:13,425 - #48 bodovi
+INFO  18:29:13,426 - #21 ++
+INFO  18:29:13,429 - #6 ;
+INFO  18:29:13,429 - #48 bodovi
+INFO  18:29:13,429 - #24 =
+INFO  18:29:13,430 - #48 bodovi
+INFO  18:29:13,430 - #31 +
+INFO  18:29:13,432 - #48 Konstante
+INFO  18:29:13,435 - #17 ::
+INFO  18:29:13,435 - #48 jedan
+INFO  18:29:13,435 - #6 ;
+INFO  18:29:13,436 - #48 bodovi
+INFO  18:29:13,436 - #24 =
+INFO  18:29:13,438 - #48 bodovi
+INFO  18:29:13,439 - #33 *
+INFO  18:29:13,439 - #48 Konstante
+INFO  18:29:13,442 - #17 ::
+INFO  18:29:13,442 - #48 pet
+INFO  18:29:13,442 - #6 ;
+INFO  18:29:13,443 - #48 bodovi
+INFO  18:29:13,443 - #22 --
+INFO  18:29:13,443 - #6 ;
+INFO  18:29:13,444 - #23 print
+INFO  18:29:13,444 - #14 (
+INFO  18:29:13,444 - #48 bodovi
+INFO  18:29:13,444 - #15 )
+INFO  18:29:13,445 - #6 ;
+INFO  18:29:13,445 - #48 Nizovi
+INFO  18:29:13,447 - #17 ::
+INFO  18:29:13,448 - #48 niz
+INFO  18:29:13,448 - #24 =
+INFO  18:29:13,448 - #18 new
+INFO  18:29:13,448 - #48 int
+INFO  18:29:13,449 - #8 [
+INFO  18:29:13,449 - #47 3
+INFO  18:29:13,449 - #9 ]
+INFO  18:29:13,449 - #6 ;
+INFO  18:29:13,450 - #48 Nizovi
+INFO  18:29:13,450 - #17 ::
+INFO  18:29:13,451 - #48 niz
+INFO  18:29:13,451 - #8 [
+INFO  18:29:13,452 - #47 1
+INFO  18:29:13,453 - #9 ]
+INFO  18:29:13,453 - #24 =
+INFO  18:29:13,454 - #47 2
+INFO  18:29:13,454 - #6 ;
+INFO  18:29:13,455 - #4 }
+INFO  18:29:13,455 - #4 }
+INFO  18:29:13,504 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Namespaces(
+    Namespaces(
+      NoNamespace(
+      ) [NoNamespace]
+      Namespace(
+        NamespaceName(
+         Konstante
+        ) [NamespaceName]
+        DeclConst(
+          DeclConst(
+            DeclConst(
+              NoDecl(
+              ) [NoDecl]
+              ConstDeclarations(
+                Types(
+                 int
+                ) [Types]
+                NumConst(
+                 nula
+                 0
+                ) [NumConst]
+                NoConstDecl(
+                ) [NoConstDecl]
+              ) [ConstDeclarations]
+            ) [DeclConst]
+            ConstDeclarations(
+              Types(
+               int
+              ) [Types]
+              NumConst(
+               jedan
+               1
+              ) [NumConst]
+              NoConstDecl(
+              ) [NoConstDecl]
+            ) [ConstDeclarations]
+          ) [DeclConst]
+          ConstDeclarations(
+            Types(
+             int
+            ) [Types]
+            NumConst(
+             pet
+             5
+            ) [NumConst]
+            NoConstDecl(
+            ) [NoConstDecl]
+          ) [ConstDeclarations]
+        ) [DeclConst]
+        NoMethodDeclaration(
+        ) [NoMethodDeclaration]
+      ) [Namespace]
+    ) [Namespaces]
+    Namespace(
+      NamespaceName(
+       Nizovi
+      ) [NamespaceName]
+      DeclVar(
+        DeclVar(
+          NoDecl(
+          ) [NoDecl]
+          VarDeclaration(
+            Types(
+             int
+            ) [Types]
+            VarDeclArray(
+             niz
+            ) [VarDeclArray]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [DeclVar]
+        VarDeclaration(
+          Types(
+           char
+          ) [Types]
+          VarDeclArray(
+           nizch
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [DeclVar]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       a
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          NoVarDeclarations(
+          ) [NoVarDeclarations]
+          VarDeclaration(
+            Types(
+             int
+            ) [Types]
+            VarDeclName(
+             bodovi
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           bool
+          ) [Types]
+          VarDeclName(
+           bt
+          ) [VarDeclName]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      Stms(
+        Stms(
+          Stms(
+            Stms(
+              Stms(
+                Stms(
+                  Stms(
+                    Stms(
+                      NoStms(
+                      ) [NoStms]
+                      DStm(
+                        AssignExpr(
+                          DesignatorIdent(
+                           bodovi
+                          ) [DesignatorIdent]
+                          Assign(
+                          ) [Assign]
+                          TermExpr(
+                            FactorTerm(
+                              NumFactor(
+                               0
+                              ) [NumFactor]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [AssignExpr]
+                      ) [DStm]
+                    ) [Stms]
+                    DStm(
+                      Inc(
+                        DesignatorIdent(
+                         bodovi
+                        ) [DesignatorIdent]
+                      ) [Inc]
+                    ) [DStm]
+                  ) [Stms]
+                  DStm(
+                    AssignExpr(
+                      DesignatorIdent(
+                       bodovi
+                      ) [DesignatorIdent]
+                      Assign(
+                      ) [Assign]
+                      AddopTermExpr(
+                        TermExpr(
+                          FactorTerm(
+                            Var(
+                              DesignatorIdent(
+                               bodovi
+                              ) [DesignatorIdent]
+                            ) [Var]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        Plus(
+                        ) [Plus]
+                        FactorTerm(
+                          Var(
+                            DesignatorScope(
+                             Konstante
+                             jedan
+                            ) [DesignatorScope]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [AddopTermExpr]
+                    ) [AssignExpr]
+                  ) [DStm]
+                ) [Stms]
+                DStm(
+                  AssignExpr(
+                    DesignatorIdent(
+                     bodovi
+                    ) [DesignatorIdent]
+                    Assign(
+                    ) [Assign]
+                    TermExpr(
+                      MulTerm(
+                        FactorTerm(
+                          Var(
+                            DesignatorIdent(
+                             bodovi
+                            ) [DesignatorIdent]
+                          ) [Var]
+                        ) [FactorTerm]
+                        Multiply(
+                        ) [Multiply]
+                        Var(
+                          DesignatorScope(
+                           Konstante
+                           pet
+                          ) [DesignatorScope]
+                        ) [Var]
+                      ) [MulTerm]
+                    ) [TermExpr]
+                  ) [AssignExpr]
+                ) [DStm]
+              ) [Stms]
+              DStm(
+                Dec(
+                  DesignatorIdent(
+                   bodovi
+                  ) [DesignatorIdent]
+                ) [Dec]
+              ) [DStm]
+            ) [Stms]
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorIdent(
+                     bodovi
+                    ) [DesignatorIdent]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [PrintStmt]
+          ) [Stms]
+          DStm(
+            AssignExpr(
+              DesignatorScope(
+               Nizovi
+               niz
+              ) [DesignatorScope]
+              Assign(
+              ) [Assign]
+              TermExpr(
+                FactorTerm(
+                  NewTypeExpr(
+                    Types(
+                     int
+                    ) [Types]
+                    TermExpr(
+                      FactorTerm(
+                        NumFactor(
+                         3
+                        ) [NumFactor]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [NewTypeExpr]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [AssignExpr]
+          ) [DStm]
+        ) [Stms]
+        DStm(
+          AssignExpr(
+            DesignatorArrayScope(
+             Nizovi
+              DesignatorName(
+               niz
+              ) [DesignatorName]
+              TermExpr(
+                FactorTerm(
+                  NumFactor(
+                   1
+                  ) [NumFactor]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesignatorArrayScope]
+            Assign(
+            ) [Assign]
+            TermExpr(
+              FactorTerm(
+                NumFactor(
+                 2
+                ) [NumFactor]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [AssignExpr]
+        ) [DStm]
+      ) [Stms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:29:13,507 - ===================================
+INFO  18:29:13,520 - U delu smo za dodelu vrednosti pormenljivoj na liniji 27
+INFO  18:29:13,521 - U delu smo za dodelu vrednosti pormenljivoj na liniji 29
+INFO  18:29:13,521 - U delu smo za dodelu vrednosti pormenljivoj na liniji 30
+INFO  18:29:13,521 - U delu smo za dodelu vrednosti pormenljivoj na liniji 34
+INFO  18:29:13,522 - U delu smo za dodelu vrednosti pormenljivoj na liniji 36
+INFO  18:29:13,537 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,144 @@
+INFO  21:40:04,825 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  21:40:04,978 - #2 program
+INFO  21:40:04,979 - #48 p
+INFO  21:40:04,980 - #5 namespace
+INFO  21:40:04,983 - #48 sizes
+INFO  21:40:04,983 - #3 {
+INFO  21:40:04,984 - #10 const
+INFO  21:40:04,986 - #48 int
+INFO  21:40:04,986 - #48 tableSize
+INFO  21:40:04,987 - #24 =
+INFO  21:40:04,987 - #47 10
+INFO  21:40:04,987 - #6 ;
+INFO  21:40:04,989 - #3 {
+INFO  21:40:04,990 - #4 }
+INFO  21:40:04,992 - #4 }
+INFO  21:40:04,992 - #48 int
+INFO  21:40:04,996 - #48 s
+INFO  21:40:04,997 - #6 ;
+INFO  21:40:05,000 - #3 {
+INFO  21:40:05,001 - #43 void
+INFO  21:40:05,002 - #48 main
+INFO  21:40:05,003 - #14 (
+INFO  21:40:05,003 - #15 )
+INFO  21:40:05,005 - #48 int
+INFO  21:40:05,007 - #48 x
+INFO  21:40:05,007 - #7 ,
+INFO  21:40:05,007 - #48 i
+INFO  21:40:05,007 - #6 ;
+INFO  21:40:05,008 - #48 char
+INFO  21:40:05,009 - #48 c
+INFO  21:40:05,009 - #6 ;
+INFO  21:40:05,009 - #48 int
+INFO  21:40:05,009 - #48 arr
+INFO  21:40:05,010 - #8 [
+INFO  21:40:05,010 - #9 ]
+INFO  21:40:05,010 - #6 ;
+INFO  21:40:05,010 - #3 {
+INFO  21:40:05,011 - #4 }
+INFO  21:40:05,012 - #4 }
+INFO  21:40:05,035 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       s
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    VoidMethod(
+      MethName(
+       main
+      ) [MethName]
+      NoFormParams(
+      ) [NoFormParams]
+      VarDelcarations(
+        VarDelcarations(
+          VarDelcarations(
+            NoVarDeclarations(
+            ) [NoVarDeclarations]
+            VarDeclaration(
+              Types(
+               int
+              ) [Types]
+              VarDeclName(
+               x
+              ) [VarDeclName]
+              VarDeclars(
+                NoVarDecls(
+                ) [NoVarDecls]
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclars]
+            ) [VarDeclaration]
+          ) [VarDelcarations]
+          VarDeclaration(
+            Types(
+             char
+            ) [Types]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+            NoVarDecls(
+            ) [NoVarDecls]
+          ) [VarDeclaration]
+        ) [VarDelcarations]
+        VarDeclaration(
+          Types(
+           int
+          ) [Types]
+          VarDeclArray(
+           arr
+          ) [VarDeclArray]
+          NoVarDecls(
+          ) [NoVarDecls]
+        ) [VarDeclaration]
+      ) [VarDelcarations]
+      NoStms(
+      ) [NoStms]
+    ) [VoidMethod]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:40:05,036 - ===================================
+INFO  21:40:05,044 - Var s u delu za globalno na liniji 6
+ERROR 21:40:05,044 - Promenljiva s je vec definisana! na liniji 6
+INFO  21:40:05,045 - Var x u delu za lokalno na liniji 8
+INFO  21:40:05,045 - Var i u delu za lokalno na liniji 8
+INFO  21:40:05,046 - Var c u delu za lokalno na liniji 8

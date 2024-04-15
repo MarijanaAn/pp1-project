@@ -1,0 +1,87 @@
+INFO  11:37:47,615 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  11:37:47,797 - #2 program
+INFO  11:37:47,798 - #48 p
+INFO  11:37:47,798 - #5 namespace
+INFO  11:37:47,801 - #48 sizes
+INFO  11:37:47,802 - #3 {
+INFO  11:37:47,802 - #10 const
+INFO  11:37:47,804 - #48 int
+INFO  11:37:47,804 - #48 tableSize
+INFO  11:37:47,805 - #24 =
+INFO  11:37:47,805 - #47 10
+INFO  11:37:47,806 - #6 ;
+INFO  11:37:47,809 - #3 {
+INFO  11:37:47,810 - #4 }
+INFO  11:37:47,811 - #4 }
+INFO  11:37:47,812 - #48 int
+INFO  11:37:47,814 - #48 s
+INFO  11:37:47,814 - #6 ;
+INFO  11:37:47,816 - #48 bool
+INFO  11:37:47,818 - #48 f
+INFO  11:37:47,818 - #6 ;
+INFO  11:37:47,819 - #3 {
+INFO  11:37:47,819 - #4 }
+INFO  11:37:47,845 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    DeclVar(
+      NoDecl(
+      ) [NoDecl]
+      VarDeclaration(
+        Types(
+         int
+        ) [Types]
+        VarDeclName(
+         s
+        ) [VarDeclName]
+        NoVarDecls(
+        ) [NoVarDecls]
+      ) [VarDeclaration]
+    ) [DeclVar]
+    VarDeclaration(
+      Types(
+       bool
+      ) [Types]
+      VarDeclName(
+       f
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  11:37:47,846 - ===================================
+INFO  11:37:47,853 - CurType 1 se promenio! na liniji 3
+INFO  11:37:47,854 - CurType 1 se promenio! na liniji 6
+INFO  11:37:47,854 - Var s u delu za globalno na liniji 6
+INFO  11:37:47,854 - CurType 0 se promenio! na liniji 7
+INFO  11:37:47,855 - Var f u delu za globalno na liniji 7
+ERROR 11:37:47,855 - Program mora imati void main() metodu na liniji 1

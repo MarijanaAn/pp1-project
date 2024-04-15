@@ -1,0 +1,71 @@
+INFO  00:34:09,230 - Compiling source file: C:\projekatpp1\workspace\MJCompiler\test\semantictest.mj
+INFO  00:34:09,459 - #2 program
+INFO  00:34:09,459 - #48 p
+INFO  00:34:09,460 - #5 namespace
+INFO  00:34:09,467 - #48 sizes
+INFO  00:34:09,467 - #3 {
+INFO  00:34:09,468 - #10 const
+INFO  00:34:09,470 - #48 int
+INFO  00:34:09,470 - #48 tableSize
+INFO  00:34:09,471 - #24 =
+INFO  00:34:09,471 - #47 10
+INFO  00:34:09,472 - #6 ;
+INFO  00:34:09,476 - #3 {
+INFO  00:34:09,477 - #4 }
+INFO  00:34:09,479 - #4 }
+INFO  00:34:09,480 - #48 int
+INFO  00:34:09,482 - #48 s
+INFO  00:34:09,483 - #6 ;
+INFO  00:34:09,485 - #3 {
+INFO  00:34:09,487 - #4 }
+INFO  00:34:09,525 - Program(
+  ProgramName(
+   p
+  ) [ProgramName]
+  Namespaces(
+    NoNamespace(
+    ) [NoNamespace]
+    Namespace(
+     sizes
+      DeclConst(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclarations(
+          Types(
+           int
+          ) [Types]
+          NumConst(
+           tableSize
+           10
+          ) [NumConst]
+          NoConstDecl(
+          ) [NoConstDecl]
+        ) [ConstDeclarations]
+      ) [DeclConst]
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+    ) [Namespace]
+  ) [Namespaces]
+  DeclVar(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      Types(
+       int
+      ) [Types]
+      VarDeclName(
+       s
+      ) [VarDeclName]
+      NoVarDecls(
+      ) [NoVarDecls]
+    ) [VarDeclaration]
+  ) [DeclVar]
+  NoMethodDeclaration(
+  ) [NoMethodDeclaration]
+) [Program]
+INFO  00:34:09,526 - ===================================
+INFO  00:34:09,535 - CurType 1 se promenio! na liniji 3
+INFO  00:34:09,536 - CurType 1 se promenio! na liniji 6
+INFO  00:34:09,536 - Var s u delu za globalno na liniji 6
+ERROR 00:34:09,536 - Promenljiva s je vec definisana! na liniji 6
+ERROR 00:34:09,536 - Program mora imati void main() metodu na liniji 1
